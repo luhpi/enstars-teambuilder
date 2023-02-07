@@ -1,9 +1,14 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <h1>enstars team builder</h1>
+    <router-link to="/">home</router-link>
+    <router-link to="/cards">cards</router-link>
+    <router-link to="/about">about</router-link>
   </nav>
   <router-view/>
+  <footer>
+    made by <a href='https://twitter.com/justpiness' target="_blank">@justpiness</a>
+  </footer>
 </template>
 
 <style>
@@ -19,21 +24,50 @@
 
 nav {
   float: left;
-  width: 20%;
+  width: 275px;
   padding: 15px;
-  display: inline-flex;
+  display: block;
+  text-align: left;
+}
+
+nav h1 {
+  color: black;
+  margin: 15px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-size: 33px;
 }
 
 nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  display: flex;
+  height: 30px;
+  color: black;
+  border: solid 1px black;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 5px 15px;
+  font-weight: 400;
+}
+
+nav a:hover {
+  background-color: #4444dd;
+  color: white!important;
+  border: solid 1px #4444dd;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #4444dd;
 }
 
 #app div{
   width: 80%;
+}
+footer{
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
 }
 </style>
