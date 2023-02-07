@@ -1,18 +1,38 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="render">
+      <img :src='imgURL'/>
+    </div>
   </div>
 </template>
 
+<style>
+  img{
+    height: 60vh;
+    position: fixed;
+    bottom: 0;
+    right: -25vh;
+    filter: drop-shadow(2vh 1.5vh 0 #4444dd);
+  }
+</style>
+
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
+  data() {
+    return {
+      img: 1,
+      imgURL: ''
+    }
+  },
   components: {
-    HelloWorld
+  },
+  mounted(){
+    this.img = Math.floor(Math.random() * 244) + 1;
+    this.imgURL = '../assets/img/cards/renders/'+this.img+'.png'
+    console.log(this.imgURL)
   }
 }
 </script>

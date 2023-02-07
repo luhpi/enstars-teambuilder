@@ -1,4 +1,283 @@
+// adrianna regular
+
 @font-face {
     font-family: 'adrianna';
+    font-weight: 100;
+    font-style: normal;
+    src: url('~@/assets/fonts/adrianna/Adrianna-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 300;
+    font-style: normal;
+    src: url('~@/assets/fonts/adrianna/Adrianna-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 400;
+    font-style: normal;
     src: url('~@/assets/fonts/adrianna/Adrianna-Regular.ttf') format('truetype');
-  }
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 600;
+    font-style: normal;
+    src: url('~@/assets/fonts/adrianna/Adrianna-Demibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 700;
+    font-style: normal;
+    src: url('~@/assets/fonts/adrianna/Adrianna-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 800;
+    font-style: normal;
+    src: url('~@/assets/fonts/adrianna/Adrianna-Extrabold.ttf') format('truetype');
+}
+
+// adrianna italic
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 100;
+    font-style: italic;
+    src: url('~@/assets/fonts/adrianna/Adrianna-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 300;
+    font-style: italic;
+    src: url('~@/assets/fonts/adrianna/Adrianna-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 400;
+    font-style: italic;
+    src: url('~@/assets/fonts/adrianna/Adrianna-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 600;
+    font-style: italic;
+    src: url('~@/assets/fonts/adrianna/Adrianna-DemiboldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 700;
+    font-style: italic;
+    src: url('~@/assets/fonts/adrianna/Adrianna-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 800;
+    font-style: italic;
+    src: url('~@/assets/fonts/adrianna/Adrianna-ExtraboldItalic.ttf') format('truetype');
+}
+
+// adrianna condensed
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 100;
+    font-style: italic;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/Adrianna-Condensed.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-DemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-DemiBoldItal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 800;
+    font-style: italic;
+    font-stretch: condensed;
+    src: url('~@/assets/fonts/adrianna/AdriannaCondensed-XbItalic.ttf') format('truetype');
+}
+
+// adrianna extended
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 100;
+    font-style: italic;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-DemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-DemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrianna';
+    font-weight: 800;
+    font-style: italic;
+    font-stretch: expanded;
+    src: url('~@/assets/fonts/adrianna/AdriannaExtended-ExtraBoldItalic.ttf') format('truetype');
+}
