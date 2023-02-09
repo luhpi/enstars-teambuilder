@@ -21,6 +21,8 @@
     },
     {
         "id": 2,
+        "namejp": "忠誠のリーダー",
+        "nameen": "Leader of Loyalty",
         "idol": "Tsukasa",
         "attr": "GLI"
     },
@@ -49,11 +51,15 @@
     },
     {
         "id": 4,
+        "namejp": "魔術のリーダー",
+        "nameen": "Leader of Magic",
         "idol": "Natsume",
         "attr": "SPA"
     },
     {
         "id": 5,
+        "namejp": "紅のリーダー",
+        "nameen": "Leader of Crimson",
         "idol": "Keito",
         "attr": "BRI"
     },
@@ -105,26 +111,36 @@
     },
     {
         "id": 8,
+        "namejp": "魔物のリーダー",
+        "nameen": "Leader of Demons",
         "idol": "Rei",
         "attr": "FLA"
     },
     {
         "id": 9,
+        "namejp": "兎群のリーダー",
+        "nameen": "Leader of Rabbits",
         "idol": "Tomoya",
         "attr": "BRI"
     },
     {
         "id": 10,
+        "namejp": "芸術のリーダー",
+        "nameen": "Leader of Art",
         "idol": "Shu",
         "attr": "BRI"
     },
     {
         "id": 11,
+        "namejp": "祭のリーダー",
+        "nameen": "Leader of Festivals",
         "idol": "Madara",
         "attr": "GLI"
     },
     {
         "id": 12,
+        "namejp": "楽園のリーダー",
+        "nameen": "Leader of Paradise",
         "idol": "Nagisa",
         "attr": "GLI"
     },
@@ -150,31 +166,43 @@
     },
     {
         "id": 14,
+        "namejp": "蜜蜂のリーダー",
+        "nameen": "Leader of Honey Bees",
         "idol": "Rinne",
         "attr": "FLA"
     },
     {
         "id": 15,
+        "namejp": "猫と騎士",
+        "nameen": "Kitten Knight",
         "idol": "Ritsu",
         "attr": "BRI"
     },
     {
         "id": 16,
+        "namejp": "新星の舞台",
+        "nameen": "Stage of New Star",
         "idol": "Subaru",
         "attr": "FLA"
     },
     {
         "id": 17,
+        "namejp": "暗闇の君",
+        "nameen": "In the Shadow",
         "idol": "Mika",
         "attr": "GLI"
     },
     {
         "id": 18,
+        "namejp": "勤労ハニービー",
+        "nameen": "Busy Honey Bee",
         "idol": "Kohaku",
         "attr": "FLA"
     },
     {
         "id": 19,
+        "namejp": "正義のモーターショウ",
+        "nameen": "Justice Motor Show",
         "idol": "Tetora",
         "attr": "SPA"
     },
@@ -211,11 +239,15 @@
     },
     {
         "id": 22,
+        "namejp": "在りし日の風来坊",
+        "nameen": "Old Vagabond",
         "idol": "Kuro",
         "attr": "BRI"
     },
     {
         "id": 23,
+        "namejp": "閃光の狂奏狼",
+        "nameen": "Gleaming Mad Wolf Musician",
         "idol": "Koga",
         "attr": "FLA"
     },
@@ -244,16 +276,22 @@
     },
     {
         "id": 25,
+        "namejp": "戸惑うAtoZ",
+        "nameen": "Flustered AtoZ",
         "idol": "Kaoru",
         "attr": "GLI"
     },
     {
         "id": 26,
+        "namejp": "静謐の祈り",
+        "nameen": "Silent Prayer",
         "idol": "Tatsumi",
         "attr": "SPA"
     },
     {
         "id": 27,
+        "namejp": "賑やかな春の嵐",
+        "nameen": "A Lively Spring Storm",
         "idol": "Wataru",
         "attr": "SPA"
     },
@@ -319,51 +357,71 @@
     },
     {
         "id": 31,
+        "namejp": "義勇の盗賊",
+        "nameen": "Loyal Thief",
         "idol": "Sora",
         "attr": "GLI"
     },
     {
         "id": 32,
+        "namejp": "迷いと夜遊び",
+        "nameen": "Hesitation and Nightlife",
         "idol": "Yuuta",
         "attr": "BRI"
     },
     {
         "id": 33,
+        "namejp": "大人の夜遊び",
+        "nameen": "Adult's Night Out",
         "idol": "Rinne",
         "attr": "GLI"
     },
     {
         "id": 34,
+        "namejp": "憧れる姫王子",
+        "nameen": "The Princely Princess I Aspire to Be",
         "idol": "Tori",
         "attr": "SPA"
     },
     {
         "id": 35,
+        "namejp": "シマハイエナの狩り",
+        "nameen": "Striped Hyena's Hunt",
         "idol": "Jun",
         "attr": "SPA"
     },
     {
         "id": 36,
+        "namejp": "ラブ・ラビッツ",
+        "nameen": "Love Ra*bits",
         "idol": "Nazuna",
         "attr": "FLA"
     },
     {
         "id": 37,
+        "namejp": "ありふれた特別",
+        "nameen": "Mundane Specialty",
         "idol": "Mao",
         "attr": "BRI"
     },
     {
         "id": 38,
+        "namejp": "妄想ドールハウス",
+        "nameen": "Fantasy Dollhouse",
         "idol": "Midori",
         "attr": "GLI"
     },
     {
         "id": 39,
+        "namejp": "挑戦の試",
+        "nameen": "Challenge Match",
         "idol": "Keito",
         "attr": "SPA"
     },
     {
         "id": 40,
+        "namejp": "継承の試合",
+        "nameen": "Succession Match",
         "idol": "Rei",
         "attr": "BRI"
     },
@@ -386,16 +444,22 @@
     },
     {
         "id": 42,
+        "namejp": "最速で届ける光",
+        "nameen": "Delivered at the Speed of Light",
         "idol": "Mitsuru",
         "attr": "GLI"
     },
     {
         "id": 43,
+        "namejp": "臆病者のデッドエンド",
+        "nameen": "Coward's Dead End",
         "idol": "Mayoi",
         "attr": "BRI"
     },
     {
         "id": 44,
+        "namejp": "緑眼の仕置き人",
+        "nameen": "Green-Eyed Executioner",
         "idol": "Madara",
         "attr": "SPA"
     },
@@ -415,41 +479,57 @@
     },
     {
         "id": 46,
+        "namejp": "きょうとう『さまぁ』",
+        "nameen": "Allied Summer",
         "idol": "Kanata",
         "attr": "SPA"
     },
     {
         "id": 47,
+        "namejp": "進む先、幸せの道",
+        "nameen": "Heading to Our Destination, the Path to Happiness",
         "idol": "Tsumugi",
         "attr": "GLI"
     },
     {
         "id": 48,
+        "namejp": "歩んだ先、世界の未知",
+        "nameen": "Beyond Our Destination, the World's Mysteries",
         "idol": "Leo",
         "attr": "FLA"
     },
     {
         "id": 49,
+        "namejp": "天地神明の誓い",
+        "nameen": "An Oath to the Gods of Heaven and Earth",
         "idol": "Souma",
         "attr": "SPA"
     },
     {
         "id": 50,
+        "namejp": "永遠への芸術",
+        "nameen": "Eternal Art",
         "idol": "Shu",
         "attr": "GLI"
     },
     {
         "id": 51,
+        "namejp": "荒野の夢",
+        "nameen": "Dream of the Wasteland",
         "idol": "Nagisa",
         "attr": "BRI"
     },
     {
         "id": 52,
+        "namejp": "闇より出づる光",
+        "nameen": "Light Beaming from the Darkness",
         "idol": "Shinobu",
         "attr": "GLI"
     },
     {
         "id": 53,
+        "namejp": "ホットな夏と記憶",
+        "nameen": "Hot Summer and Memories",
         "idol": "Niki",
         "attr": "BRI"
     },
@@ -492,21 +572,29 @@
     },
     {
         "id": 56,
+        "namejp": "桃源郷の経験",
+        "nameen": "Shangri-la Experience",
         "idol": "Makoto",
         "attr": "GLI"
     },
     {
         "id": 57,
+        "namejp": "偶像の中の激情",
+        "nameen": "Passion Burning Within the Idol",
         "idol": "Yuzuru",
         "attr": "FLA"
     },
     {
         "id": 58,
+        "namejp": "ウソツキゲーム",
+        "nameen": "Liar Game",
         "idol": "Natsume",
         "attr": "FLA"
     },
     {
         "id": 59,
+        "namejp": "王道ど真ん中",
+        "nameen": "The Epitome of Standard",
         "idol": "Tomoya",
         "attr": "FLA"
     },
@@ -548,11 +636,15 @@
     },
     {
         "id": 62,
+        "namejp": "王に至るため",
+        "nameen": "In Order to Become a King",
         "idol": "Tsukasa",
         "attr": "FLA"
     },
     {
         "id": 63,
+        "namejp": "オオカミロック",
+        "nameen": "Wolf Rock n Roll",
         "idol": "Koga",
         "attr": "SPA"
     },
@@ -572,6 +664,8 @@
     },
     {
         "id": 65,
+        "namejp": "瞳に映る姿",
+        "nameen": "How I Appear in your Eyes",
         "idol": "Wataru",
         "attr": "GLI"
     },
@@ -617,11 +711,15 @@
     },
     {
         "id": 68,
+        "namejp": "生存と気概",
+        "nameen": "Survival and Guts",
         "idol": "Tetora",
         "attr": "FLA"
     },
     {
         "id": 69,
+        "namejp": "妥協なき一着",
+        "nameen": "Uncompromisable Outfit",
         "idol": "Shu",
         "attr": "FLA"
     },
@@ -650,16 +748,22 @@
     },
     {
         "id": 71,
+        "namejp": "零時のニュイ",
+        "nameen": "Nuit at 12 O'Clock",
         "idol": "Makoto",
         "attr": "SPA"
     },
     {
         "id": 72,
+        "namejp": "はぐれものの価値",
+        "nameen": "An Outsider's Value",
         "idol": "Rinne",
         "attr": "SPA"
     },
     {
         "id": 73,
+        "namejp": "桃色の結晶",
+        "nameen": "Pink Crystals",
         "idol": "Tori",
         "attr": "GLI"
     },
@@ -685,6 +789,8 @@
     },
     {
         "id": 75,
+        "namejp": "魔法の翼",
+        "nameen": "Wings of Magic",
         "idol": "Tsumugi",
         "attr": "SPA"
     },
@@ -704,16 +810,22 @@
     },
     {
         "id": 77,
+        "namejp": "緑黒の門番",
+        "nameen": "Green and Black Gatekeeper",
         "idol": "Keito",
         "attr": "FLA"
     },
     {
         "id": 78,
+        "namejp": "浮かぶ色とりどり",
+        "nameen": "Prismatic Colours Flowing Forth",
         "idol": "Leo",
         "attr": "SPA"
     },
     {
         "id": 79,
+        "namejp": "もっとキラキラ！",
+        "nameen": "Sparkling Even More!",
         "idol": "Subaru",
         "attr": "BRI"
     },
@@ -733,21 +845,29 @@
     },
     {
         "id": 81,
+        "namejp": "赤炎の審判",
+        "nameen": "Red-Flamed Judge",
         "idol": "Yuzuru",
         "attr": "BRI"
     },
     {
         "id": 82,
+        "namejp": "未来の道案内",
+        "nameen": "Guiding the Path to the Future",
         "idol": "Nazuna",
         "attr": "SPA"
     },
     {
         "id": 83,
+        "namejp": "成し遂げる綺譚",
+        "nameen": "Fulfilled Legend",
         "idol": "Mika",
         "attr": "SPA"
     },
     {
         "id": 84,
+        "namejp": "連れ添う綺譚",
+        "nameen": "Paired Legend",
         "idol": "Kohaku",
         "attr": "BRI"
     },
@@ -781,46 +901,64 @@
     },
     {
         "id": 87,
+        "namejp": "迷いながらの一歩",
+        "nameen": "Uncertain Step",
         "idol": "Kuro",
         "attr": "GLI"
     },
     {
         "id": 88,
+        "namejp": "スイーツハンター",
+        "nameen": "Sweets Hunter",
         "idol": "Niki",
         "attr": "FLA"
     },
     {
         "id": 89,
+        "namejp": "個性と可能性",
+        "nameen": "Individuality and Potential",
         "idol": "Yuuta",
         "attr": "FLA"
     },
     {
         "id": 90,
+        "namejp": "幸せな夢を見て",
+        "nameen": "Having a Blissful Dream",
         "idol": "Ritsu",
         "attr": "SPA"
     },
     {
         "id": 91,
+        "namejp": "コランダム.K",
+        "nameen": "Corundum.K",
         "idol": "Kaoru",
         "attr": "SPA"
     },
     {
         "id": 92,
+        "namejp": "万雷の宴会場",
+        "nameen": "Place of Thundrous Festivities",
         "idol": "Madara",
         "attr": "FLA"
     },
     {
         "id": 93,
+        "namejp": "幻の向こう側",
+        "nameen": "Beyond the Illusion",
         "idol": "Sora",
         "attr": "BRI"
     },
     {
         "id": 94,
+        "namejp": "爛漫スプリング",
+        "nameen": "Gloriously Blooming Spring",
         "idol": "Subaru",
         "attr": "SPA"
     },
     {
         "id": 95,
+        "namejp": "混沌と愛の先導者",
+        "nameen": "Guide of Chaos and Love",
         "idol": "Rei",
         "attr": "GLI"
     },
@@ -863,11 +1001,15 @@
     },
     {
         "id": 98,
+        "namejp": "絶体絶命の一撃",
+        "nameen": "Desperate Blow",
         "idol": "Tomoya",
         "attr": "SPA"
     },
     {
         "id": 99,
+        "namejp": "抗って歩む道",
+        "nameen": "The Path I Resist as I Walk Down It",
         "idol": "Jun",
         "attr": "GLI"
     },
@@ -896,11 +1038,15 @@
     },
     {
         "id": 101,
+        "namejp": "サテライトの革命星",
+        "nameen": "Satellite's Revolutionary Star",
         "idol": "Tatsumi",
         "attr": "FLA"
     },
     {
         "id": 102,
+        "namejp": "変わらぬ子供心",
+        "nameen": "Always a Child at Heart",
         "idol": "Shinobu",
         "attr": "BRI"
     },
@@ -923,6 +1069,8 @@
     },
     {
         "id": 104,
+        "namejp": "白い世界のブラック",
+        "nameen": "A White World's Black",
         "idol": "Mitsuru",
         "attr": "FLA"
     },
@@ -945,6 +1093,8 @@
     },
     {
         "id": 106,
+        "namejp": "願い宿す先導者",
+        "nameen": "Guide Harboring Wishes",
         "idol": "Natsume",
         "attr": "BRI"
     },
@@ -973,26 +1123,36 @@
     },
     {
         "id": 108,
+        "namejp": "ルーキースケーター",
+        "nameen": "Rookie Skater",
         "idol": "Tsukasa",
         "attr": "SPA"
     },
     {
         "id": 109,
+        "namejp": "部屋の隅の臆病な",
+        "nameen": "Coward Hiding in the Corner",
         "idol": "Mayoi",
         "attr": "GLI"
     },
     {
         "id": 110,
+        "namejp": "さぶまりんとかみさま",
+        "nameen": "Submarine and God",
         "idol": "Kanata",
         "attr": "BRI"
     },
     {
         "id": 111,
+        "namejp": "サブマリンとお役目",
+        "nameen": "Submarine and Duty",
         "idol": "Souma",
         "attr": "FLA"
     },
     {
         "id": 112,
+        "namejp": "咲く花を描いて",
+        "nameen": "Painting Blooming Flowers",
         "idol": "Tsumugi",
         "attr": "FLA"
     },
@@ -1015,36 +1175,50 @@
     },
     {
         "id": 114,
+        "namejp": "願いのブーケ",
+        "nameen": "Hopeful Bouquet",
         "idol": "Midori",
         "attr": "BRI"
     },
     {
         "id": 115,
+        "namejp": "想いのブーケ",
+        "nameen": "Heartfelt Bouquet",
         "idol": "Mao",
         "attr": "FLA"
     },
     {
         "id": 116,
+        "namejp": "いくつもの自分",
+        "nameen": "All the Different Sides of Myself",
         "idol": "Makoto",
         "attr": "GLI"
     },
     {
         "id": 117,
+        "namejp": "零の地とシークレット",
+        "nameen": "Secrets and the Land of Zero",
         "idol": "Nagisa",
         "attr": "SPA"
     },
     {
         "id": 118,
+        "namejp": "義理人情とシークレット",
+        "nameen": "Of Love, Duty and Secrets",
         "idol": "Madara",
         "attr": "BRI"
     },
     {
         "id": 119,
+        "namejp": "蒼き神秘のスフィア",
+        "nameen": "Sphere of Azure Mystery",
         "idol": "Nazuna",
         "attr": "GLI"
     },
     {
         "id": 120,
+        "namejp": "重ねて纏う自分",
+        "nameen": "Donning the Overlapping Colors of Myself",
         "idol": "Sora",
         "attr": "SPA"
     },
@@ -1073,6 +1247,8 @@
     },
     {
         "id": 122,
+        "namejp": "常識ブレイカー",
+        "nameen": "Conformity Breaker",
         "idol": "Koga",
         "attr": "BRI"
     },
@@ -1092,11 +1268,15 @@
     },
     {
         "id": 124,
+        "namejp": "シンセカイの先",
+        "nameen": "Beyond the Shinsekai",
         "idol": "Shu",
         "attr": "SPA"
     },
     {
         "id": 125,
+        "namejp": "シンセカイの神",
+        "nameen": "The God of Shinsekai",
         "idol": "Natsume",
         "attr": "GLI"
     },
@@ -1153,6 +1333,8 @@
     },
     {
         "id": 129,
+        "namejp": "条件サンドストーム",
+        "nameen": "Prerequisite Sandstorm",
         "idol": "Kaoru",
         "attr": "FLA"
     },
@@ -1181,6 +1363,8 @@
     },
     {
         "id": 131,
+        "namejp": "琥珀色に咲く蕾",
+        "nameen": "Amber-Colored Blossom in Bloom",
         "idol": "Kohaku",
         "attr": "SPA"
     },
@@ -1200,56 +1384,78 @@
     },
     {
         "id": 133,
+        "namejp": "月都ナイト",
+        "nameen": "Moon Capital Night",
         "idol": "Tatsumi",
         "attr": "BRI"
     },
     {
         "id": 134,
+        "namejp": "誰かへ光る星",
+        "nameen": "The Star Shining for Someone",
         "idol": "Subaru",
         "attr": "GLI"
     },
     {
         "id": 135,
+        "namejp": "秘匿サンクチュアリ",
+        "nameen": "Secret Sanctuary",
         "idol": "Wataru",
         "attr": "FLA"
     },
     {
         "id": 136,
+        "namejp": "飛躍サンクチュアリ",
+        "nameen": "Sanctuary of Great Improvement",
         "idol": "Tomoya",
         "attr": "GLI"
     },
     {
         "id": 137,
+        "namejp": "猛き武将",
+        "nameen": "Valiant Warlord",
         "idol": "Souma",
         "attr": "BRI"
     },
     {
         "id": 138,
+        "namejp": "成長期の子虎",
+        "nameen": "Growing Tiger Cub",
         "idol": "Tetora",
         "attr": "GLI"
     },
     {
         "id": 139,
+        "namejp": "雲の向こう側へ",
+        "nameen": "Beyond the Clouds",
         "idol": "Jun",
         "attr": "FLA"
     },
     {
         "id": 140,
+        "namejp": "実りの日を待ちて",
+        "nameen": "Awaiting the Day of Harvest",
         "idol": "Yuuta",
         "attr": "GLI"
     },
     {
         "id": 141,
+        "namejp": "気楽でいられる自分",
+        "nameen": "Comfortable Staying Just As I Am",
         "idol": "Midori",
         "attr": "FLA"
     },
     {
         "id": 142,
+        "namejp": "因縁と相反のサドンデス",
+        "nameen": "Sudden Death of Fate and Contradiction",
         "idol": "Kohaku",
         "attr": "GLI"
     },
     {
         "id": 143,
+        "namejp": "立場と葛藤のサドンデス",
+        "nameen": "Sudden Death of Status and Turmoil",
         "idol": "Tsukasa",
         "attr": "BRI"
     },
@@ -1275,16 +1481,22 @@
     },
     {
         "id": 145,
+        "namejp": "鮮血の月",
+        "nameen": "Moon of Fresh Blood",
         "idol": "Keito",
         "attr": "GLI"
     },
     {
         "id": 146,
+        "namejp": "満ちる太陽",
+        "nameen": "Brimming Sun",
         "idol": "Mitsuru",
         "attr": "BRI"
     },
     {
         "id": 147,
+        "namejp": "つながるうみ",
+        "nameen": "Intertwined Sea",
         "idol": "Kanata",
         "attr": "FLA"
     },
@@ -1304,36 +1516,50 @@
     },
     {
         "id": 149,
+        "namejp": "繊細高校生刑事",
+        "nameen": "Dainty High School Detective",
         "idol": "Mika",
         "attr": "BRI"
     },
     {
         "id": 150,
+        "namejp": "尽くす執務者",
+        "nameen": "Devoted Valet",
         "idol": "Yuzuru",
         "attr": "SPA"
     },
     {
         "id": 151,
+        "namejp": "忍法・現代ナイズ",
+        "nameen": "Ninpou, Modern-ize",
         "idol": "Shinobu",
         "attr": "SPA"
     },
     {
         "id": 152,
+        "namejp": "冬を照らす光",
+        "nameen": "Light Illuminating Winter",
         "idol": "Wataru",
         "attr": "BRI"
     },
     {
         "id": 153,
+        "namejp": "悠久の死神",
+        "nameen": "Eternal Reaper",
         "idol": "Ritsu",
         "attr": "GLI"
     },
     {
         "id": 154,
+        "namejp": "断罪の死神",
+        "nameen": "Reaper of Condemnation",
         "idol": "Rei",
         "attr": "SPA"
     },
     {
         "id": 155,
+        "namejp": "胸に届ける調べ",
+        "nameen": "Melody Delivered To Your Heart",
         "idol": "Niki",
         "attr": "GLI"
     },
@@ -1362,11 +1588,15 @@
     },
     {
         "id": 157,
+        "namejp": "暗雲に差し込む紅",
+        "nameen": "Red that Pierces Through the Clouds",
         "idol": "Tori",
         "attr": "FLA"
     },
     {
         "id": 158,
+        "namejp": "夜明けを歌う白",
+        "nameen": "White that Sings for the Break of Dawn",
         "idol": "Nagisa",
         "attr": "FLA"
     },
@@ -1395,6 +1625,8 @@
     },
     {
         "id": 160,
+        "namejp": "自由の寅",
+        "nameen": "Free Tiger",
         "idol": "Leo",
         "attr": "BRI"
     },
@@ -1414,11 +1646,15 @@
     },
     {
         "id": 162,
+        "namejp": "振り返る四季",
+        "nameen": "Reminiscing on the Four Seasons",
         "idol": "Mao",
         "attr": "GLI"
     },
     {
         "id": 163,
+        "namejp": "静寂と白虎",
+        "nameen": "Tranquility and White Tiger",
         "idol": "Rinne",
         "attr": "BRI"
     },
@@ -1438,21 +1674,29 @@
     },
     {
         "id": 165,
+        "namejp": "希望のファントムシップ",
+        "nameen": "Phantom Ship of Hope",
         "idol": "Mayoi",
         "attr": "SPA"
     },
     {
         "id": 166,
+        "namejp": "練成のアストレア",
+        "nameen": "Astraea of Discipline",
         "idol": "Shu",
         "attr": "GLI"
     },
     {
         "id": 167,
+        "namejp": "青春が紡ぐ硬い糸",
+        "nameen": "Toughly Woven Threads of Youth",
         "idol": "Kuro",
         "attr": "FLA"
     },
     {
         "id": 168,
+        "namejp": "本音のラブレター",
+        "nameen": "Heartfelt Love Letter",
         "idol": "Yuuta",
         "attr": "SPA"
     },
@@ -1472,41 +1716,57 @@
     },
     {
         "id": 170,
+        "namejp": "期待に応える薫風",
+        "nameen": "Summer Breeze that Affirms Expectations",
         "idol": "Kaoru",
         "attr": "BRI"
     },
     {
         "id": 171,
+        "namejp": "クギヅケカラット",
+        "nameen": "Steadfast Carat",
         "idol": "Tsumugi",
         "attr": "BRI"
     },
     {
         "id": 172,
+        "namejp": "Mingling Colors",
+        "nameen": "Mingling Colors",
         "idol": "Madara",
         "attr": "SPA"
     },
     {
         "id": 173,
+        "namejp": "染まらぬ心の花",
+        "nameen": "Untainted Flower of the Heart",
         "idol": "Keito",
         "attr": "FLA"
     },
     {
         "id": 174,
+        "namejp": "閉ざされた標本箱",
+        "nameen": "Sealed Display of Specimens",
         "idol": "Mika",
         "attr": "FLA"
     },
     {
         "id": 175,
+        "namejp": "純白のブリム",
+        "nameen": "Snow White Brim",
         "idol": "Tori",
         "attr": "BRI"
     },
     {
         "id": 176,
+        "namejp": "眠りから覚める者",
+        "nameen": "He Who Awakens From His Slumbe",
         "idol": "Ritsu",
         "attr": "FLA"
     },
     {
         "id": 177,
+        "namejp": "桜色の宵",
+        "nameen": "Cherry Blossom-colored Evening",
         "idol": "Kohaku",
         "attr": "BRI"
     },
@@ -1540,6 +1800,8 @@
     },
     {
         "id": 180,
+        "namejp": "ライブリーバニー",
+        "nameen": "Lively Bunny",
         "idol": "Wataru",
         "attr": "SPA"
     },
@@ -1559,11 +1821,15 @@
     },
     {
         "id": 182,
+        "namejp": "時を越え知る者",
+        "nameen": "The One Who Transcends Time",
         "idol": "Nagisa",
         "attr": "GLI"
     },
     {
         "id": 183,
+        "namejp": "掲げた輝きの欠片",
+        "nameen": "Shards of a Brilliant Display",
         "idol": "Tatsumi",
         "attr": "GLI"
     },
@@ -1592,6 +1858,8 @@
     },
     {
         "id": 185,
+        "namejp": "吠えるギタリスト",
+        "nameen": "Howling Guitarist",
         "idol": "Koga",
         "attr": "GLI"
     },
@@ -1620,51 +1888,78 @@
     },
     {
         "id": 187,
+        "namejp": "ゲームとリアル",
+        "nameen": "Games and IRL",
         "idol": "Makoto",
         "attr": "BRI"
     },
     {
         "id": 188,
+        "namejp": "旅立つOrient",
+        "nameen": "Departing Orient",
         "idol": "Midori",
         "attr": "SPA"
     },
     {
         "id": 189,
+        "namejp": "跳ね飛びテンション",
+        "nameen": "Hoppin' Hype",
         "idol": "Nazuna",
         "attr": "BRI"
     },
     {
         "id": 190,
+        "namejp": "祝福のブライド",
+        "nameen": "Bride of Blessings",
         "idol": "Kaoru",
         "attr": "GLI"
     },
     {
         "id": 191,
+        "namejp": "幻影ハングリー",
+        "nameen": "Phantom Hungry",
         "idol": "Niki",
         "attr": "SPA"
     },
     {
         "id": 192,
+        "namejp": "ほの甘い午後",
+        "nameen": "Subtly Sweet Afternoon",
         "idol": "Tsukasa",
         "attr": "GLI"
     },
     {
         "id": 193,
+        "namejp": "タッグでチャレンジ",
+        "nameen": "Tag Team Challenge",
         "idol": "Yuuta",
         "attr": "BRI"
     },
     {
         "id": 194,
+        "namejp": "目指す次の星",
+        "nameen": "The Aspiring Star-in-Waiting",
         "idol": "Souma",
         "attr": "GLI"
     },
     {
         "id": 195,
+        "namejp": "バンカラな青春",
+        "nameen": "Bankara Youth",
         "idol": "Jun",
-        "attr": "BRI"
+        "attr": "BRI",
+        "centerskill": "ALL",
+        "da0": 23784,
+        "da4": 26305,
+        "vo0": 45436,
+        "vo4": 67953,
+        "pf0": 25232,
+        "pf4": 26688
     },
     {
         "id": 196,
+        "namejp": "さかなとうたう",
+        "nameen": "Singing with the Fishes",
         "idol": "Kanata",
         "attr": "GLI"
     },
@@ -1741,26 +2036,36 @@
     },
     {
         "id": 201,
+        "namejp": "出会いのクルーズ",
+        "nameen": "Cruise of Encounters",
         "idol": "Natsume",
         "attr": "SPA"
     },
     {
         "id": 202,
+        "namejp": "みずたまの思い出",
+        "nameen": "Polka Dot Memories",
         "idol": "Tetora",
         "attr": "BRI"
     },
     {
         "id": 203,
+        "namejp": "静かなひとり舞台",
+        "nameen": "A Quiet Solitary Stage",
         "idol": "Mayoi",
         "attr": "FLA"
     },
     {
         "id": 204,
+        "namejp": "異国のサンシャイン",
+        "nameen": "Sunshine in a Foreign Country",
         "idol": "Leo",
         "attr": "GLI"
     },
     {
         "id": 205,
+        "namejp": "元気なアニマルズ",
+        "nameen": "Lively Animals",
         "idol": "Subaru",
         "attr": "FLA"
     },
@@ -1797,6 +2102,8 @@
     },
     {
         "id": 208,
+        "namejp": "前向き体育祭",
+        "nameen": "Optimistic Sports Festival",
         "idol": "Tomoya",
         "attr": "BRI"
     },
@@ -1819,21 +2126,29 @@
     },
     {
         "id": 210,
+        "namejp": "自然と視線クロス",
+        "nameen": "Crossover of My State and Your Gaze",
         "idol": "Mao",
         "attr": "SPA"
     },
     {
         "id": 211,
+        "namejp": "拳に宿る炎",
+        "nameen": "Flame Within the Fist",
         "idol": "Kuro",
         "attr": "SPA"
     },
     {
         "id": 212,
+        "namejp": "楽しげに舞う炎",
+        "nameen": "Cheerfully Dancing Flame",
         "idol": "Madara",
         "attr": "FLA"
     },
     {
         "id": 213,
+        "namejp": "誰かの目標点",
+        "nameen": "An Inspiration for Someone Out There",
         "idol": "Tori",
         "attr": "GLI"
     },
@@ -1856,21 +2171,29 @@
     },
     {
         "id": 215,
+        "namejp": "幻のような姿",
+        "nameen": "A Figure Like a Mirage",
         "idol": "Yuuta",
         "attr": "GLI"
     },
     {
         "id": 216,
+        "namejp": "夜空に近い場所",
+        "nameen": "A Place Close to the Night Sky",
         "idol": "Rei",
         "attr": "FLA"
     },
     {
         "id": 217,
+        "namejp": "大地と大陸",
+        "nameen": "Land and Continent",
         "idol": "Midori",
         "attr": "GLI"
     },
     {
         "id": 218,
+        "namejp": "大地と太陽",
+        "nameen": "Land and Sun",
         "idol": "Mitsuru",
         "attr": "SPA"
     },
@@ -1899,26 +2222,36 @@
     },
     {
         "id": 220,
+        "namejp": "心躍る街明かり",
+        "nameen": "Thrilling City Lights",
         "idol": "Rinne",
         "attr": "GLI"
     },
     {
         "id": 221,
+        "namejp": "ゴースティックな現象",
+        "nameen": "Ghostic Phenomenon",
         "idol": "Yuzuru",
         "attr": "GLI"
     },
     {
         "id": 222,
+        "namejp": "幼いPORTRAIT",
+        "nameen": "Childhood PORTRAIT",
         "idol": "Makoto",
         "attr": "FLA"
     },
     {
         "id": 223,
+        "namejp": "そっと触れあい",
+        "nameen": "Gentle Interactions",
         "idol": "Sora",
         "attr": "FLA"
     },
     {
         "id": 224,
+        "namejp": "恐慌スパイダー",
+        "nameen": "Panic-stricken Spider",
         "idol": "Kohaku",
         "attr": "FLA"
     },
@@ -1938,16 +2271,22 @@
     },
     {
         "id": 226,
+        "namejp": "未体験と新発見",
+        "nameen": "Unexperienced and Unexplored Discoveries",
         "idol": "Nagisa",
         "attr": "SPA"
     },
     {
         "id": 227,
+        "namejp": "親しみブレンド",
+        "nameen": "Affectionate Blend",
         "idol": "Tsumugi",
         "attr": "SPA"
     },
     {
         "id": 228,
+        "namejp": "こだわりブレンド",
+        "nameen": "Specialty Blend",
         "idol": "Shu",
         "attr": "BRI"
     },
@@ -1967,41 +2306,57 @@
     },
     {
         "id": 230,
+        "namejp": "絆のスタフェス",
+        "nameen": "StarFes of Bonds",
         "idol": "Shinobu",
         "attr": "FLA"
     },
     {
         "id": 231,
+        "namejp": "神秘のスタフェス",
+        "nameen": "StarFes of Mystery",
         "idol": "Mayoi",
         "attr": "BRI"
     },
     {
         "id": 232,
+        "namejp": "欲望の宝石商",
+        "nameen": "Jeweller of Desire",
         "idol": "Kuro",
         "attr": "GLI"
     },
     {
         "id": 233,
+        "namejp": "縛られない存在",
+        "nameen": "Unbridled Existence",
         "idol": "Wataru",
         "attr": "FLA"
     },
     {
         "id": 234,
+        "namejp": "やる気に火を付けて",
+        "nameen": "Igniting Motivation",
         "idol": "Rinne",
         "attr": "FLA"
     },
     {
         "id": 235,
+        "namejp": "情熱に火を付けて",
+        "nameen": "Igniting Passion",
         "idol": "Tomoya",
         "attr": "SPA"
     },
     {
         "id": 236,
+        "namejp": "縫い留めた心",
+        "nameen": "Stitched Heart",
         "idol": "Mika",
         "attr": "SPA"
     },
     {
         "id": 237,
+        "namejp": "新しい色の景色",
+        "nameen": "Scenery of New Color",
         "idol": "Madara",
         "attr": "GLI"
     },
@@ -2030,6 +2385,8 @@
     },
     {
         "id": 239,
+        "namejp": "生真面目な優しさ",
+        "nameen": "Sincere Kindness",
         "idol": "Keito",
         "attr": "BRI"
     },
@@ -2079,6 +2436,8 @@
     },
     {
         "id": 244,
+        "namejp": "闘争アンリミテッド",
+        "nameen": "Unlimited Power Struggle",
         "idol": "Tetora",
         "attr": "FLA"
     }

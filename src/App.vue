@@ -64,6 +64,7 @@ nav a:hover {
 
 nav a.router-link-exact-active {
   color: #4444dd;
+  border: solid 1px #4444dd;
 }
 
 .app{
