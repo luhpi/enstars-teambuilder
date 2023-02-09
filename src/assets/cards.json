@@ -1,0 +1,2085 @@
+[
+    {
+        "id": 1,
+        "namejp": "双星のリーダー",
+        "nameen": "Leader of Twin Stars",
+        "idol": "Hinata",
+        "attr": "SPA",
+        "centerskill": "DA",
+        "da0": 50727,
+        "da1": 54959,
+        "da2": 59211,
+        "da4": 67595,
+        "vo0": 19464,
+        "vo1": 22457,
+        "vo2": 23082,
+        "vo4": 27241,
+        "pf0": 20569,
+        "pf1": 21190,
+        "pf2": 23072,
+        "pf4": 27335
+    },
+    {
+        "id": 2,
+        "idol": "Tsukasa",
+        "attr": "GLI"
+    },
+    {
+        "id": 3,
+        "namejp": "綺羅星のリーダー",
+        "nameen": "Leader of Stars",
+        "idol": "Hokuto",
+        "attr": "BRI",
+        "centerskill": "VO",
+        "da0": 23485,
+        "da1": 25466,
+        "da2": 27148,
+        "da3": 27659,
+        "da4": 31141,
+        "vo0": 41236,
+        "vo1": 46155,
+        "vo2": 49224,
+        "vo3": 54323,
+        "vo4": 57922,
+        "pf0": 27096,
+        "pf1": 27662,
+        "pf2": 28229,
+        "pf3": 28795,
+        "pf4": 30642
+    },
+    {
+        "id": 4,
+        "idol": "Natsume",
+        "attr": "SPA"
+    },
+    {
+        "id": 5,
+        "idol": "Keito",
+        "attr": "BRI"
+    },
+    {
+        "id": 6,
+        "namejp": "天上のリーダー",
+        "nameen": "Leader of Heaven",
+        "idol": "Eichi",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 27623,
+        "da1": 29991,
+        "da2": 32159,
+        "da3": 33237,
+        "da4": 34315,
+        "vo0": 18072,
+        "vo1": 21478,
+        "vo2": 22265,
+        "vo3": 24361,
+        "vo4": 27778,
+        "pf0": 41306,
+        "pf1": 44097,
+        "pf2": 47750,
+        "pf3": 52022,
+        "pf4": 57725
+    },
+    {
+        "id": 7,
+        "namejp": "正義のリーダー",
+        "nameen": "Leader of Justice",
+        "idol": "Chiaki",
+        "attr": "SPA",
+        "centerskill": "PF",
+        "da0": 20531,
+        "da1": 22273,
+        "da2": 23837,
+        "da3": 24120,
+        "da4": 26954,
+        "vo0": 25198,
+        "vo1": 26837,
+        "vo2": 28298,
+        "vo3": 28658,
+        "vo4": 29019,
+        "pf0": 43669,
+        "pf1": 46935,
+        "pf2": 48663,
+        "pf3": 52990,
+        "pf4": 57548
+    },
+    {
+        "id": 8,
+        "idol": "Rei",
+        "attr": "FLA"
+    },
+    {
+        "id": 9,
+        "idol": "Tomoya",
+        "attr": "BRI"
+    },
+    {
+        "id": 10,
+        "idol": "Shu",
+        "attr": "BRI"
+    },
+    {
+        "id": 11,
+        "idol": "Madara",
+        "attr": "GLI"
+    },
+    {
+        "id": 12,
+        "idol": "Nagisa",
+        "attr": "GLI"
+    },
+    {
+        "id": 13,
+        "namejp": "手札のリーダー",
+        "nameen": "Leader of Cards",
+        "idol": "Hiiro",
+        "attr": "SPA",
+        "centerskill": "ALL",
+        "da0": 46340,
+        "da1": 50551,
+        "da2": 55252,
+        "da4": 60114,
+        "vo0": 19334,
+        "vo1": 20109,
+        "vo2": 20879,
+        "vo4": 26719,
+        "pf0": 21592,
+        "pf1": 24451,
+        "pf2": 26291,
+        "pf4": 33070
+    },
+    {
+        "id": 14,
+        "idol": "Rinne",
+        "attr": "FLA"
+    },
+    {
+        "id": 15,
+        "idol": "Ritsu",
+        "attr": "BRI"
+    },
+    {
+        "id": 16,
+        "idol": "Subaru",
+        "attr": "FLA"
+    },
+    {
+        "id": 17,
+        "idol": "Mika",
+        "attr": "GLI"
+    },
+    {
+        "id": 18,
+        "idol": "Kohaku",
+        "attr": "FLA"
+    },
+    {
+        "id": 19,
+        "idol": "Tetora",
+        "attr": "SPA"
+    },
+    {
+        "id": 20,
+        "namejp": "前進のモーターショウ",
+        "nameen": "Marching Motor Show",
+        "idol": "Hiiro",
+        "attr": "BRI",
+        "centerskill": "VO",
+        "da0": 23269,
+        "da4": 32953,
+        "vo0": 46518,
+        "vo4": 62685,
+        "pf0": 21086,
+        "pf4": 24811
+    },
+    {
+        "id": 21,
+        "namejp": "偽りの指揮官",
+        "nameen": "Disguised Commander",
+        "idol": "Ibara",
+        "attr": "BRI",
+        "centerskill": "ALL",
+        "da0": 19694,
+        "da3": 27299,
+        "da4": 29019,
+        "vo0": 43480,
+        "vo3": 54453,
+        "vo4": 60319,
+        "pf0": 24189,
+        "pf3": 30083,
+        "pf4": 31601
+    },
+    {
+        "id": 22,
+        "idol": "Kuro",
+        "attr": "BRI"
+    },
+    {
+        "id": 23,
+        "idol": "Koga",
+        "attr": "FLA"
+    },
+    {
+        "id": 24,
+        "namejp": "前向きAtoZ",
+        "nameen": "Active AtoZ",
+        "idol": "Chiaki",
+        "attr": "FLA",
+        "centerskill": "VO",
+        "da0": 22610,
+        "da1": 25961,
+        "da2": 27053,
+        "da3": 28144,
+        "da4": 30347,
+        "vo0": 45541,
+        "vo1": 48981,
+        "vo2": 53131,
+        "vo3": 58021,
+        "vo4": 62741,
+        "pf0": 20943,
+        "pf1": 21570,
+        "pf2": 23567,
+        "pf3": 24194,
+        "pf4": 24821
+    },
+    {
+        "id": 25,
+        "idol": "Kaoru",
+        "attr": "GLI"
+    },
+    {
+        "id": 26,
+        "idol": "Tatsumi",
+        "attr": "SPA"
+    },
+    {
+        "id": 27,
+        "idol": "Wataru",
+        "attr": "SPA"
+    },
+    {
+        "id": 28,
+        "namejp": "迷子のグレーテル",
+        "nameen": "Lost Gretel",
+        "idol": "Hajime",
+        "attr": "SPA",
+        "centerskill": "VO",
+        "da0": 18160,
+        "da1": 19774,
+        "da2": 20258,
+        "da3": 21872,
+        "da4": 22356,
+        "vo0": 44970,
+        "vo1": 49211,
+        "vo2": 53384,
+        "vo3": 57116,
+        "vo4": 63669,
+        "pf0": 22270,
+        "pf1": 22684,
+        "pf2": 24360,
+        "pf3": 24775,
+        "pf4": 25191
+    },
+    {
+        "id": 29,
+        "namejp": "太陽の翳",
+        "nameen": "The Sun's Shadow",
+        "idol": "Hiyori",
+        "attr": "BRI",
+        "centerskill": "DA",
+        "da0": 44576,
+        "da4": 60844,
+        "vo0": 21586,
+        "vo4": 27203,
+        "pf0": 23058,
+        "pf4": 31591
+    },
+    {
+        "id": 30,
+        "namejp": "朝靄の妖精",
+        "nameen": "Fairy of Morning Mist",
+        "idol": "Izumi",
+        "attr": "GLI",
+        "centerskill": "DA",
+        "da0": 40385,
+        "da1": 45449,
+        "da2": 50614,
+        "da3": 53798,
+        "da4": 60003,
+        "vo0": 26821,
+        "vo1": 28020,
+        "vo2": 29219,
+        "vo3": 31508,
+        "vo4": 32707,
+        "pf0": 23648,
+        "pf1": 26255,
+        "pf2": 27383,
+        "pf3": 28510,
+        "pf4": 29638
+    },
+    {
+        "id": 31,
+        "idol": "Sora",
+        "attr": "GLI"
+    },
+    {
+        "id": 32,
+        "idol": "Yuuta",
+        "attr": "BRI"
+    },
+    {
+        "id": 33,
+        "idol": "Rinne",
+        "attr": "GLI"
+    },
+    {
+        "id": 34,
+        "idol": "Tori",
+        "attr": "SPA"
+    },
+    {
+        "id": 35,
+        "idol": "Jun",
+        "attr": "SPA"
+    },
+    {
+        "id": 36,
+        "idol": "Nazuna",
+        "attr": "FLA"
+    },
+    {
+        "id": 37,
+        "idol": "Mao",
+        "attr": "BRI"
+    },
+    {
+        "id": 38,
+        "idol": "Midori",
+        "attr": "GLI"
+    },
+    {
+        "id": 39,
+        "idol": "Keito",
+        "attr": "SPA"
+    },
+    {
+        "id": 40,
+        "idol": "Rei",
+        "attr": "BRI"
+    },
+    {
+        "id": 41,
+        "namejp": "目標のオンリーワン",
+        "nameen": "My One and Only Goal",
+        "idol": "Hokuto",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 40815,
+        "da1": 46348,
+        "da4": 57467,
+        "vo0": 26022,
+        "vo1": 28343,
+        "vo4": 31289,
+        "pf0": 23693,
+        "pf1": 24820,
+        "pf4": 33413
+    },
+    {
+        "id": 42,
+        "idol": "Mitsuru",
+        "attr": "GLI"
+    },
+    {
+        "id": 43,
+        "idol": "Mayoi",
+        "attr": "BRI"
+    },
+    {
+        "id": 44,
+        "idol": "Madara",
+        "attr": "SPA"
+    },
+    {
+        "id": 45,
+        "namejp": "胸の内に秘めて",
+        "nameen": "Hidden Feelings",
+        "idol": "HiMERU",
+        "attr": "BRI",
+        "centerskill": "PF",
+        "da0": 23481,
+        "da4": 28142,
+        "vo0": 26224,
+        "vo4": 28908,
+        "pf0": 43844,
+        "pf4": 65882
+    },
+    {
+        "id": 46,
+        "idol": "Kanata",
+        "attr": "SPA"
+    },
+    {
+        "id": 47,
+        "idol": "Tsumugi",
+        "attr": "GLI"
+    },
+    {
+        "id": 48,
+        "idol": "Leo",
+        "attr": "FLA"
+    },
+    {
+        "id": 49,
+        "idol": "Souma",
+        "attr": "SPA"
+    },
+    {
+        "id": 50,
+        "idol": "Shu",
+        "attr": "GLI"
+    },
+    {
+        "id": 51,
+        "idol": "Nagisa",
+        "attr": "BRI"
+    },
+    {
+        "id": 52,
+        "idol": "Shinobu",
+        "attr": "GLI"
+    },
+    {
+        "id": 53,
+        "idol": "Niki",
+        "attr": "BRI"
+    },
+    {
+        "id": 54,
+        "namejp": "月見と思い出",
+        "nameen": "Moon Viewing and Memories",
+        "idol": "Adonis",
+        "attr": "BRI",
+        "centerskill": "ALL",
+        "da0": 20009,
+        "da1": 20515,
+        "da2": 21021,
+        "da4": 22033,
+        "vo0": 46929,
+        "vo1": 50009,
+        "vo2": 55639,
+        "vo4": 66829,
+        "pf0": 18211,
+        "pf1": 22574,
+        "pf2": 23108,
+        "pf4": 27995
+    },
+    {
+        "id": 55,
+        "namejp": "最高の自分",
+        "nameen": "The Best Self I Can Be",
+        "idol": "Arashi",
+        "attr": "SPA",
+        "centerskill": "DA",
+        "da0": 45177,
+        "da2": 49885,
+        "da4": 58484,
+        "vo0": 22600,
+        "vo2": 29430,
+        "vo4": 34100,
+        "pf0": 22954,
+        "pf2": 26095,
+        "pf4": 29327
+    },
+    {
+        "id": 56,
+        "idol": "Makoto",
+        "attr": "GLI"
+    },
+    {
+        "id": 57,
+        "idol": "Yuzuru",
+        "attr": "FLA"
+    },
+    {
+        "id": 58,
+        "idol": "Natsume",
+        "attr": "FLA"
+    },
+    {
+        "id": 59,
+        "idol": "Tomoya",
+        "attr": "FLA"
+    },
+    {
+        "id": 60,
+        "namejp": "触れられる距離で",
+        "nameen": "Within Touching Distance",
+        "idol": "Aira",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 21751,
+        "da4": 26785,
+        "vo0": 45379,
+        "vo4": 64826,
+        "pf0": 20108,
+        "pf4": 26849
+    },
+    {
+        "id": 61,
+        "namejp": "大胆なスパイ",
+        "nameen": "Daring Spy",
+        "idol": "Eichi",
+        "attr": "SPA",
+        "centerskill": "ALL",
+        "da0": 18239,
+        "da1": 18827,
+        "da2": 21384,
+        "da3": 21384,
+        "da4": 21973,
+        "vo0": 47135,
+        "vo1": 49720,
+        "vo2": 63705,
+        "vo3": 58620,
+        "vo4": 63705,
+        "pf0": 19711,
+        "pf1": 24346,
+        "pf3": 26806,
+        "pf4": 30151
+    },
+    {
+        "id": 62,
+        "idol": "Tsukasa",
+        "attr": "FLA"
+    },
+    {
+        "id": 63,
+        "idol": "Koga",
+        "attr": "SPA"
+    },
+    {
+        "id": 64,
+        "namejp": "甘くないスイーツ",
+        "nameen": "Unsweet Sweets",
+        "idol": "Hinata",
+        "attr": "GLI",
+        "centerskill": "PF",
+        "da0": 16996,
+        "da4": 25320,
+        "vo0": 19217,
+        "vo4": 24731,
+        "pf0": 47289,
+        "pf4": 66112
+    },
+    {
+        "id": 65,
+        "idol": "Wataru",
+        "attr": "GLI"
+    },
+    {
+        "id": 66,
+        "namejp": "我慢ヘンソクタイム",
+        "nameen": "Enduring an Irregular Time",
+        "idol": "Ibara",
+        "attr": "SPA",
+        "centerskill": "PF",
+        "da0": 21844,
+        "da1": 23715,
+        "da2": 24386,
+        "da4": 25057,
+        "vo0": 24392,
+        "vo1": 28054,
+        "vo2": 28888,
+        "vo4": 30911,
+        "pf0": 46670,
+        "pf1": 48778,
+        "pf2": 52236,
+        "pf4": 55774
+    },
+    {
+        "id": 67,
+        "namejp": "天然フントウタイム",
+        "nameen": "Airheaded Struggle Time",
+        "idol": "Hajime",
+        "attr": "GLI",
+        "centerskill": "ALL",
+        "da0": 45927,
+        "da1": 50840,
+        "da2": 53155,
+        "da4": 63824,
+        "vo0": 21220,
+        "vo1": 21500,
+        "vo2": 23061,
+        "vo4": 23622,
+        "pf0": 25336,
+        "pf1": 27430,
+        "pf2": 28335,
+        "pf4": 31185
+    },
+    {
+        "id": 68,
+        "idol": "Tetora",
+        "attr": "FLA"
+    },
+    {
+        "id": 69,
+        "idol": "Shu",
+        "attr": "FLA"
+    },
+    {
+        "id": 70,
+        "namejp": "六時のマタン",
+        "nameen": "Matin at 6 O'Clock",
+        "idol": "Izumi",
+        "attr": "BRI",
+        "centerskill": "VO",
+        "da0": 21293,
+        "da1": 22125,
+        "da2": 22959,
+        "da3": 23792,
+        "da4": 25976,
+        "vo0": 47401,
+        "vo1": 52575,
+        "vo2": 56421,
+        "vo3": 61306,
+        "vo4": 66382,
+        "pf0": 23419,
+        "pf1": 25398,
+        "pf2": 26028,
+        "pf3": 26657,
+        "pf4": 27288
+    },
+    {
+        "id": 71,
+        "idol": "Makoto",
+        "attr": "SPA"
+    },
+    {
+        "id": 72,
+        "idol": "Rinne",
+        "attr": "SPA"
+    },
+    {
+        "id": 73,
+        "idol": "Tori",
+        "attr": "GLI"
+    },
+    {
+        "id": 74,
+        "namejp": "藍色の結晶",
+        "nameen": "Indigo Crystals",
+        "idol": "Aira",
+        "attr": "BRI",
+        "centerskill": "ALL",
+        "da0": 21173,
+        "da1": 23368,
+        "da2": 25265,
+        "da4": 28058,
+        "vo0": 23835,
+        "vo1": 25526,
+        "vo2": 26129,
+        "vo4": 28804,
+        "pf0": 43234,
+        "pf1": 48088,
+        "pf2": 51983,
+        "pf4": 63353
+    },
+    {
+        "id": 75,
+        "idol": "Tsumugi",
+        "attr": "SPA"
+    },
+    {
+        "id": 76,
+        "namejp": "流星と赤き決意",
+        "nameen": "Meteors and Red Resolve",
+        "idol": "Chiaki",
+        "attr": "BRI",
+        "centerskill": "DA",
+        "da0": 46763,
+        "da4": 64724,
+        "vo0": 22300,
+        "vo4": 28159,
+        "pf0": 18361,
+        "pf4": 24688
+    },
+    {
+        "id": 77,
+        "idol": "Keito",
+        "attr": "FLA"
+    },
+    {
+        "id": 78,
+        "idol": "Leo",
+        "attr": "SPA"
+    },
+    {
+        "id": 79,
+        "idol": "Subaru",
+        "attr": "BRI"
+    },
+    {
+        "id": 80,
+        "namejp": "双つの連なる頂",
+        "nameen": "Connected Twin Peaks",
+        "idol": "Hinata",
+        "attr": "FLA",
+        "centerskill": "VO",
+        "da0": 20067,
+        "da4": 24534,
+        "vo0": 45386,
+        "vo4": 65833,
+        "pf0": 21132,
+        "pf4": 26772
+    },
+    {
+        "id": 81,
+        "idol": "Yuzuru",
+        "attr": "BRI"
+    },
+    {
+        "id": 82,
+        "idol": "Nazuna",
+        "attr": "SPA"
+    },
+    {
+        "id": 83,
+        "idol": "Mika",
+        "attr": "SPA"
+    },
+    {
+        "id": 84,
+        "idol": "Kohaku",
+        "attr": "BRI"
+    },
+    {
+        "id": 85,
+        "namejp": "清純王子さま",
+        "nameen": "Innocent Prince",
+        "idol": "Hiiro",
+        "attr": "FLA",
+        "centerskill": "PF",
+        "da0": 16131,
+        "da4": 23188,
+        "vo0": 20081,
+        "vo4": 24938,
+        "pf0": 46966,
+        "pf4": 65756
+    },
+    {
+        "id": 86,
+        "namejp": "最高に輝く日々",
+        "nameen": "Every Day is the Brightest Day",
+        "idol": "Hiyori",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 25561,
+        "da4": 29059,
+        "vo0": 27380,
+        "vo4": 34482,
+        "pf0": 40477,
+        "pf4": 58276
+    },
+    {
+        "id": 87,
+        "idol": "Kuro",
+        "attr": "GLI"
+    },
+    {
+        "id": 88,
+        "idol": "Niki",
+        "attr": "FLA"
+    },
+    {
+        "id": 89,
+        "idol": "Yuuta",
+        "attr": "FLA"
+    },
+    {
+        "id": 90,
+        "idol": "Ritsu",
+        "attr": "SPA"
+    },
+    {
+        "id": 91,
+        "idol": "Kaoru",
+        "attr": "SPA"
+    },
+    {
+        "id": 92,
+        "idol": "Madara",
+        "attr": "FLA"
+    },
+    {
+        "id": 93,
+        "idol": "Sora",
+        "attr": "BRI"
+    },
+    {
+        "id": 94,
+        "idol": "Subaru",
+        "attr": "SPA"
+    },
+    {
+        "id": 95,
+        "idol": "Rei",
+        "attr": "GLI"
+    },
+    {
+        "id": 96,
+        "namejp": "先輩とチャレンジ",
+        "nameen": "Challenge with Senpai",
+        "idol": "Hiiro",
+        "attr": "GLI",
+        "centerskill": "ALL",
+        "da0": 40148,
+        "da4": 54107,
+        "vo0": 22177,
+        "vo4": 26259,
+        "pf0": 18803,
+        "pf4": 26374
+    },
+    {
+        "id": 97,
+        "namejp": "春の息吹",
+        "nameen": "A Breath of Spring Air",
+        "idol": "Eichi",
+        "attr": "GLI",
+        "centerskill": "DA",
+        "da0": 43724,
+        "da1": 50910,
+        "da2": 54208,
+        "da3": 57625,
+        "da4": 62243,
+        "vo0": 23433,
+        "vo1": 23928,
+        "vo2": 24423,
+        "vo3": 26188,
+        "vo4": 27843,
+        "pf0": 23828,
+        "pf1": 24367,
+        "pf2": 26226,
+        "pf3": 28155,
+        "pf4": 30064
+    },
+    {
+        "id": 98,
+        "idol": "Tomoya",
+        "attr": "SPA"
+    },
+    {
+        "id": 99,
+        "idol": "Jun",
+        "attr": "GLI"
+    },
+    {
+        "id": 100,
+        "namejp": "サテライトの北極星",
+        "nameen": "Satellite's North Star",
+        "idol": "Hokuto",
+        "attr": "SPA",
+        "centerskill": "ALL",
+        "da0": 26496,
+        "da1": 27508,
+        "da2": 28520,
+        "da3": 30972,
+        "da4": 31984,
+        "vo0": 21299,
+        "vo1": 24917,
+        "vo2": 25946,
+        "vo3": 26974,
+        "vo4": 30733,
+        "pf0": 42575,
+        "pf1": 46139,
+        "pf2": 49804,
+        "pf3": 53658,
+        "pf4": 58683
+    },
+    {
+        "id": 101,
+        "idol": "Tatsumi",
+        "attr": "FLA"
+    },
+    {
+        "id": 102,
+        "idol": "Shinobu",
+        "attr": "BRI"
+    },
+    {
+        "id": 103,
+        "namejp": "故郷の風を纏う者",
+        "nameen": "He Who Cloaks Himself in the Winds of His Homeland",
+        "idol": "Adonis",
+        "attr": "GLI",
+        "centerskill": "PF",
+        "da0": 27453,
+        "da1": 29847,
+        "da4": 35315,
+        "vo0": 23613,
+        "vo1": 24509,
+        "vo4": 28509,
+        "pf0": 42186,
+        "pf1": 47878,
+        "pf4": 60306
+    },
+    {
+        "id": 104,
+        "idol": "Mitsuru",
+        "attr": "FLA"
+    },
+    {
+        "id": 105,
+        "namejp": "木漏れ日煌めく生徒",
+        "nameen": "Student of Glimmering Dappled Sunlight",
+        "idol": "Arashi",
+        "attr": "GLI",
+        "centerskill": "VO",
+        "da0": 23688,
+        "da1": 25515,
+        "da4": 31606,
+        "vo0": 45510,
+        "vo1": 50086,
+        "vo4": 60399,
+        "pf0": 23942,
+        "pf1": 25842,
+        "pf4": 30585
+    },
+    {
+        "id": 106,
+        "idol": "Natsume",
+        "attr": "BRI"
+    },
+    {
+        "id": 107,
+        "namejp": "結ぶアリアドネ",
+        "nameen": "Binding Ariadne",
+        "idol": "HiMERU",
+        "attr": "SPA",
+        "centerskill": "VO",
+        "da0": 23009,
+        "da1": 26124,
+        "da2": 26790,
+        "da3": 27455,
+        "da4": 30751,
+        "vo0": 46338,
+        "vo1": 50484,
+        "vo2": 54840,
+        "vo3": 57726,
+        "vo4": 62202,
+        "pf0": 21164,
+        "pf1": 22101,
+        "pf2": 23039,
+        "pf3": 26476,
+        "pf4": 27415
+    },
+    {
+        "id": 108,
+        "idol": "Tsukasa",
+        "attr": "SPA"
+    },
+    {
+        "id": 109,
+        "idol": "Mayoi",
+        "attr": "GLI"
+    },
+    {
+        "id": 110,
+        "idol": "Kanata",
+        "attr": "BRI"
+    },
+    {
+        "id": 111,
+        "idol": "Souma",
+        "attr": "FLA"
+    },
+    {
+        "id": 112,
+        "idol": "Tsumugi",
+        "attr": "FLA"
+    },
+    {
+        "id": 113,
+        "namejp": "発展途上の愛らしさ",
+        "nameen": "Blossoming Loveliness",
+        "idol": "Aira",
+        "attr": "GLI",
+        "centerskill": "DA",
+        "da0": 43857,
+        "da1": 49424,
+        "da4": 57135,
+        "vo0": 26339,
+        "vo1": 27780,
+        "vo4": 34453,
+        "pf0": 24480,
+        "pf1": 25712,
+        "pf4": 32318
+    },
+    {
+        "id": 114,
+        "idol": "Midori",
+        "attr": "BRI"
+    },
+    {
+        "id": 115,
+        "idol": "Mao",
+        "attr": "FLA"
+    },
+    {
+        "id": 116,
+        "idol": "Makoto",
+        "attr": "GLI"
+    },
+    {
+        "id": 117,
+        "idol": "Nagisa",
+        "attr": "SPA"
+    },
+    {
+        "id": 118,
+        "idol": "Madara",
+        "attr": "BRI"
+    },
+    {
+        "id": 119,
+        "idol": "Nazuna",
+        "attr": "GLI"
+    },
+    {
+        "id": 120,
+        "idol": "Sora",
+        "attr": "SPA"
+    },
+    {
+        "id": 121,
+        "namejp": "清雅フレグランス",
+        "nameen": "Elegant Fragrance",
+        "idol": "Arashi",
+        "attr": "FLA",
+        "centerskill": "PF",
+        "da0": 25506,
+        "da1": 26212,
+        "da2": 26919,
+        "da3": 28685,
+        "da4": 29393,
+        "vo0": 21541,
+        "vo1": 22208,
+        "vo2": 24397,
+        "vo3": 25065,
+        "vo4": 28554,
+        "pf0": 44388,
+        "pf1": 51275,
+        "pf2": 54263,
+        "pf3": 58800,
+        "pf4": 62798
+    },
+    {
+        "id": 122,
+        "idol": "Koga",
+        "attr": "BRI"
+    },
+    {
+        "id": 123,
+        "namejp": "希望の光",
+        "nameen": "Ray of Hope",
+        "idol": "Chiaki",
+        "attr": "GLI",
+        "centerskill": "PF",
+        "da0": 22196,
+        "da4": 30940,
+        "vo0": 24317,
+        "vo4": 30622,
+        "pf0": 45237,
+        "pf4": 60069
+    },
+    {
+        "id": 124,
+        "idol": "Shu",
+        "attr": "SPA"
+    },
+    {
+        "id": 125,
+        "idol": "Natsume",
+        "attr": "GLI"
+    },
+    {
+        "id": 126,
+        "namejp": "前線の番犬",
+        "nameen": "Frontline Watchdog",
+        "idol": "Ibara",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 45509,
+        "da4": 64410,
+        "vo0": 23426,
+        "vo4": 30570,
+        "pf0": 17572,
+        "pf4": 24159
+    },
+    {
+        "id": 127,
+        "namejp": "交差していく道",
+        "nameen": "Intersecting Paths",
+        "idol": "Hiiro",
+        "attr": "BRI",
+        "centerskill": "PF",
+        "da0": 24055,
+        "da1": 24904,
+        "da2": 27214,
+        "da4": 30144,
+        "vo0": 26605,
+        "vo1": 30292,
+        "vo2": 31071,
+        "vo4": 32628,
+        "pf0": 41924,
+        "pf1": 46414,
+        "pf2": 49405,
+        "pf4": 60466
+    },
+    {
+        "id": 128,
+        "namejp": "協力サンドストーム",
+        "nameen": "Cooperative Sandstorm",
+        "idol": "Hinata",
+        "attr": "BRI",
+        "centerskill": "VO",
+        "da0": 27784,
+        "da1": 28867,
+        "da4": 31461,
+        "vo0": 39345,
+        "vo1": 49442,
+        "vo4": 58950,
+        "pf0": 26756,
+        "pf1": 28582,
+        "pf4": 31578
+    },
+    {
+        "id": 129,
+        "idol": "Kaoru",
+        "attr": "FLA"
+    },
+    {
+        "id": 130,
+        "namejp": "潮騒の波打つ心",
+        "nameen": "Surging Heart of the Roaring Waves",
+        "idol": "Izumi",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 22027,
+        "da1": 22742,
+        "da2": 24847,
+        "da3": 28572,
+        "da4": 29287,
+        "vo0": 24927,
+        "vo1": 25649,
+        "vo2": 27693,
+        "vo3": 28416,
+        "vo4": 31970,
+        "pf0": 44305,
+        "pf1": 51545,
+        "pf2": 53305,
+        "pf3": 56395,
+        "pf4": 60645
+    },
+    {
+        "id": 131,
+        "idol": "Kohaku",
+        "attr": "SPA"
+    },
+    {
+        "id": 132,
+        "namejp": "月都メモリー",
+        "nameen": "Moon Capital Memory",
+        "idol": "Hiyori",
+        "attr": "GLI",
+        "centerskill": "VO",
+        "da0": 22237,
+        "da4": 27849,
+        "vo0": 46499,
+        "vo4": 65917,
+        "pf0": 20300,
+        "pf4": 24782
+    },
+    {
+        "id": 133,
+        "idol": "Tatsumi",
+        "attr": "BRI"
+    },
+    {
+        "id": 134,
+        "idol": "Subaru",
+        "attr": "GLI"
+    },
+    {
+        "id": 135,
+        "idol": "Wataru",
+        "attr": "FLA"
+    },
+    {
+        "id": 136,
+        "idol": "Tomoya",
+        "attr": "GLI"
+    },
+    {
+        "id": 137,
+        "idol": "Souma",
+        "attr": "BRI"
+    },
+    {
+        "id": 138,
+        "idol": "Tetora",
+        "attr": "GLI"
+    },
+    {
+        "id": 139,
+        "idol": "Jun",
+        "attr": "FLA"
+    },
+    {
+        "id": 140,
+        "idol": "Yuuta",
+        "attr": "GLI"
+    },
+    {
+        "id": 141,
+        "idol": "Midori",
+        "attr": "FLA"
+    },
+    {
+        "id": 142,
+        "idol": "Kohaku",
+        "attr": "GLI"
+    },
+    {
+        "id": 143,
+        "idol": "Tsukasa",
+        "attr": "BRI"
+    },
+    {
+        "id": 144,
+        "namejp": "自分流の悟空",
+        "nameen": "Wukong In My Own Style",
+        "idol": "Hokuto",
+        "attr": "GLI",
+        "centerskill": "ALL",
+        "da0": 23208,
+        "da2": 25405,
+        "da3": 25748,
+        "da4": 26093,
+        "vo0": 46572,
+        "vo2": 54849,
+        "vo3": 60782,
+        "vo4": 66396,
+        "pf0": 20810,
+        "pf2": 23186,
+        "pf3": 23659,
+        "pf4": 25582
+    },
+    {
+        "id": 145,
+        "idol": "Keito",
+        "attr": "GLI"
+    },
+    {
+        "id": 146,
+        "idol": "Mitsuru",
+        "attr": "BRI"
+    },
+    {
+        "id": 147,
+        "idol": "Kanata",
+        "attr": "FLA"
+    },
+    {
+        "id": 148,
+        "namejp": "獣と外交官",
+        "nameen": "Beast and Ambassador",
+        "idol": "Adonis",
+        "attr": "SPA",
+        "centerskill": "DA",
+        "da0": 45515,
+        "da4": 62716,
+        "vo0": 23979,
+        "vo4": 33010,
+        "pf0": 20008,
+        "pf4": 25358
+    },
+    {
+        "id": 149,
+        "idol": "Mika",
+        "attr": "BRI"
+    },
+    {
+        "id": 150,
+        "idol": "Yuzuru",
+        "attr": "SPA"
+    },
+    {
+        "id": 151,
+        "idol": "Shinobu",
+        "attr": "SPA"
+    },
+    {
+        "id": 152,
+        "idol": "Wataru",
+        "attr": "BRI"
+    },
+    {
+        "id": 153,
+        "idol": "Ritsu",
+        "attr": "GLI"
+    },
+    {
+        "id": 154,
+        "idol": "Rei",
+        "attr": "SPA"
+    },
+    {
+        "id": 155,
+        "idol": "Niki",
+        "attr": "GLI"
+    },
+    {
+        "id": 156,
+        "namejp": "朝の訪れを歌う紅",
+        "nameen": "Red that Sings for the Advent of Morning",
+        "idol": "Eichi",
+        "attr": "BRI",
+        "centerskill": "PF",
+        "da0": 25788,
+        "da1": 29265,
+        "da2": 30313,
+        "da3": 31360,
+        "da4": 32409,
+        "vo0": 29298,
+        "vo1": 29853,
+        "vo2": 31949,
+        "vo3": 33664,
+        "vo4": 34220,
+        "pf0": 39012,
+        "pf1": 43012,
+        "pf2": 45663,
+        "pf3": 49303,
+        "pf4": 56054
+    },
+    {
+        "id": 157,
+        "idol": "Tori",
+        "attr": "FLA"
+    },
+    {
+        "id": 158,
+        "idol": "Nagisa",
+        "attr": "FLA"
+    },
+    {
+        "id": 159,
+        "namejp": "暗闇を照らす白",
+        "nameen": "White that Illuminates the Darkness",
+        "idol": "Hiyori",
+        "attr": "SPA",
+        "centerskill": "ALL",
+        "da0": 26924,
+        "da1": 29128,
+        "da2": 31454,
+        "da3": 32309,
+        "da4": 33165,
+        "vo0": 40758,
+        "vo1": 46028,
+        "vo2": 48699,
+        "vo3": 51219,
+        "vo4": 56371,
+        "pf0": 24855,
+        "pf1": 25863,
+        "pf2": 26873,
+        "pf3": 30222,
+        "pf4": 32582
+    },
+    {
+        "id": 160,
+        "idol": "Leo",
+        "attr": "BRI"
+    },
+    {
+        "id": 161,
+        "namejp": "混ぜて重ねる色彩",
+        "nameen": "Colors Mixed Together",
+        "idol": "Hinata",
+        "attr": "GLI",
+        "centerskill": "DA",
+        "da0": 40614,
+        "da4": 59648,
+        "vo0": 26984,
+        "vo4": 30339,
+        "pf0": 25258,
+        "pf4": 32051
+    },
+    {
+        "id": 162,
+        "idol": "Mao",
+        "attr": "GLI"
+    },
+    {
+        "id": 163,
+        "idol": "Rinne",
+        "attr": "BRI"
+    },
+    {
+        "id": 164,
+        "namejp": "最高のおもてなし",
+        "nameen": "The Best Hospitality",
+        "idol": "Hajime",
+        "attr": "BRI",
+        "centerskill": "PF",
+        "da0": 26815,
+        "da4": 34172,
+        "vo0": 23005,
+        "vo4": 31212,
+        "pf0": 43883,
+        "pf4": 57211
+    },
+    {
+        "id": 165,
+        "idol": "Mayoi",
+        "attr": "SPA"
+    },
+    {
+        "id": 166,
+        "idol": "Shu",
+        "attr": "GLI"
+    },
+    {
+        "id": 167,
+        "idol": "Kuro",
+        "attr": "FLA"
+    },
+    {
+        "id": 168,
+        "idol": "Yuuta",
+        "attr": "SPA"
+    },
+    {
+        "id": 169,
+        "namejp": "甘くない言葉",
+        "nameen": "Bitter Remarks",
+        "idol": "HiMERU",
+        "attr": "GLI",
+        "centerskill": "DA",
+        "da0": 46421,
+        "da4": 62228,
+        "vo0": 23867,
+        "vo4": 33284,
+        "pf0": 20365,
+        "pf4": 25874
+    },
+    {
+        "id": 170,
+        "idol": "Kaoru",
+        "attr": "BRI"
+    },
+    {
+        "id": 171,
+        "idol": "Tsumugi",
+        "attr": "BRI"
+    },
+    {
+        "id": 172,
+        "idol": "Madara",
+        "attr": "SPA"
+    },
+    {
+        "id": 173,
+        "idol": "Keito",
+        "attr": "FLA"
+    },
+    {
+        "id": 174,
+        "idol": "Mika",
+        "attr": "FLA"
+    },
+    {
+        "id": 175,
+        "idol": "Tori",
+        "attr": "BRI"
+    },
+    {
+        "id": 176,
+        "idol": "Ritsu",
+        "attr": "FLA"
+    },
+    {
+        "id": 177,
+        "idol": "Kohaku",
+        "attr": "BRI"
+    },
+    {
+        "id": 178,
+        "namejp": "マインシティ",
+        "nameen": "My City",
+        "idol": "Hiyori",
+        "attr": "GLI",
+        "centerskill": "ALL",
+        "da0": 45451,
+        "da4": 64541,
+        "vo0": 24168,
+        "vo4": 28222,
+        "pf0": 20751,
+        "pf4": 27115
+    },
+    {
+        "id": 179,
+        "namejp": "燃ゆる望みの星",
+        "nameen": "The Burning Star of Hope",
+        "idol": "Eichi",
+        "attr": "FLA",
+        "centerskill": "VO",
+        "da0": 26273,
+        "da4": 32344,
+        "vo0": 42514,
+        "vo4": 59729,
+        "pf0": 23407,
+        "pf4": 29922
+    },
+    {
+        "id": 180,
+        "idol": "Wataru",
+        "attr": "SPA"
+    },
+    {
+        "id": 181,
+        "namejp": "サニーバニー",
+        "nameen": "Sunny Bunny",
+        "idol": "Hinata",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 23701,
+        "da4": 28514,
+        "vo0": 20497,
+        "vo4": 29782,
+        "pf0": 45222,
+        "pf4": 63419
+    },
+    {
+        "id": 182,
+        "idol": "Nagisa",
+        "attr": "GLI"
+    },
+    {
+        "id": 183,
+        "idol": "Tatsumi",
+        "attr": "GLI"
+    },
+    {
+        "id": 184,
+        "namejp": "求めた輝きの欠片",
+        "nameen": "Shards of a Desired Brilliance",
+        "idol": "HiMERU",
+        "attr": "FLA",
+        "centerskill": "PF",
+        "da0": 30335,
+        "da1": 32177,
+        "da2": 33909,
+        "da3": 34591,
+        "da4": 38023,
+        "vo0": 24739,
+        "vo1": 25316,
+        "vo2": 25894,
+        "vo3": 26471,
+        "vo4": 27049,
+        "pf0": 40312,
+        "pf1": 45607,
+        "pf2": 48463,
+        "pf3": 53668,
+        "pf4": 59314
+    },
+    {
+        "id": 185,
+        "idol": "Koga",
+        "attr": "GLI"
+    },
+    {
+        "id": 186,
+        "namejp": "曲げない信念",
+        "nameen": "Unbending Conviction",
+        "idol": "Izumi",
+        "attr": "SPA",
+        "centerskill": "DA",
+        "da0": 41311,
+        "da1": 47070,
+        "da2": 51691,
+        "da3": 57811,
+        "da4": 61142,
+        "vo0": 27834,
+        "vo1": 27847,
+        "vo2": 29291,
+        "vo3": 30564,
+        "vo4": 31659,
+        "pf0": 24793,
+        "pf1": 27325,
+        "pf2": 27347,
+        "pf3": 27369,
+        "pf4": 31601
+    },
+    {
+        "id": 187,
+        "idol": "Makoto",
+        "attr": "BRI"
+    },
+    {
+        "id": 188,
+        "idol": "Midori",
+        "attr": "SPA"
+    },
+    {
+        "id": 189,
+        "idol": "Nazuna",
+        "attr": "BRI"
+    },
+    {
+        "id": 190,
+        "idol": "Kaoru",
+        "attr": "GLI"
+    },
+    {
+        "id": 191,
+        "idol": "Niki",
+        "attr": "SPA"
+    },
+    {
+        "id": 192,
+        "idol": "Tsukasa",
+        "attr": "GLI"
+    },
+    {
+        "id": 193,
+        "idol": "Yuuta",
+        "attr": "BRI"
+    },
+    {
+        "id": 194,
+        "idol": "Souma",
+        "attr": "GLI"
+    },
+    {
+        "id": 195,
+        "idol": "Jun",
+        "attr": "BRI"
+    },
+    {
+        "id": 196,
+        "idol": "Kanata",
+        "attr": "GLI"
+    },
+    {
+        "id": 197,
+        "namejp": "七夕と見上げる空",
+        "nameen": "Gazing upon the Tanabata Sky",
+        "idol": "Adonis",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 28320,
+        "da1": 29634,
+        "da3": 30949,
+        "da4": 35058,
+        "vo0": 41917,
+        "vo1": 45522,
+        "vo3": 48638,
+        "vo4": 54918,
+        "pf0": 24846,
+        "pf1": 28592,
+        "pf3": 29709,
+        "pf4": 35962
+    },
+    {
+        "id": 198,
+        "namejp": "七夕と祈る空",
+        "nameen": "Wishing upon the Tanabata Sky",
+        "idol": "Arashi",
+        "attr": "BRI",
+        "centerskill": "DA",
+        "da0": 45188,
+        "da1": 46805,
+        "da2": 48422,
+        "da3": 54319,
+        "da4": 57016,
+        "vo0": 20416,
+        "vo1": 21608,
+        "vo2": 22921,
+        "vo3": 23003,
+        "vo4": 24136,
+        "pf0": 26182,
+        "pf1": 31913,
+        "pf2": 35414,
+        "pf3": 37405,
+        "pf4": 43286
+    },
+    {
+        "id": 199,
+        "namejp": "興味と挑戦",
+        "nameen": "Curiosity and Challenges",
+        "idol": "Hiiro",
+        "attr": "GLI",
+        "centerskill": "VO",
+        "da0": 22318,
+        "da4": 28952,
+        "vo0": 47135,
+        "vo4": 65787,
+        "pf0": 26403,
+        "pf4": 27657
+    },
+    {
+        "id": 200,
+        "namejp": "緑と日差しの中で",
+        "nameen": "Amidst Greenery and Sunlight",
+        "idol": "Hajime",
+        "attr": "FLA",
+        "centerskill": "DA",
+        "da0": 43221,
+        "da4": 62497,
+        "vo0": 25928,
+        "vo4": 31915,
+        "pf0": 25943,
+        "pf4": 30774
+    },
+    {
+        "id": 201,
+        "idol": "Natsume",
+        "attr": "SPA"
+    },
+    {
+        "id": 202,
+        "idol": "Tetora",
+        "attr": "BRI"
+    },
+    {
+        "id": 203,
+        "idol": "Mayoi",
+        "attr": "FLA"
+    },
+    {
+        "id": 204,
+        "idol": "Leo",
+        "attr": "GLI"
+    },
+    {
+        "id": 205,
+        "idol": "Subaru",
+        "attr": "FLA"
+    },
+    {
+        "id": 206,
+        "namejp": "誘い試す一手",
+        "nameen": "A Solo Gambit of Temptation",
+        "idol": "Ibara",
+        "attr": "GLI",
+        "centerskill": "PF",
+        "da0": 25976,
+        "da4": 30268,
+        "vo0": 26551,
+        "vo4": 32412,
+        "pf0": 42818,
+        "pf4": 62051
+    },
+    {
+        "id": 207,
+        "namejp": "戸惑い体育祭",
+        "nameen": "Bewildered Sports Festival",
+        "idol": "Aira",
+        "attr": "SPA",
+        "centerskill": "ALL",
+        "da0": 27078,
+        "da2": 32052,
+        "da4": 38547,
+        "vo0": 41387,
+        "vo2": 43677,
+        "vo4": 54900,
+        "pf0": 26820,
+        "pf2": 27881,
+        "pf4": 32426
+    },
+    {
+        "id": 208,
+        "idol": "Tomoya",
+        "attr": "BRI"
+    },
+    {
+        "id": 209,
+        "namejp": "レッドホットな夏",
+        "nameen": "Red Hot Summer",
+        "idol": "Chiaki",
+        "attr": "FLA",
+        "centerskill": "VO",
+        "da0": 26816,
+        "da1": 28099,
+        "da4": 29461,
+        "vo0": 47409,
+        "vo1": 51310,
+        "vo4": 65665,
+        "pf0": 21099,
+        "pf1": 23846,
+        "pf4": 27772
+    },
+    {
+        "id": 210,
+        "idol": "Mao",
+        "attr": "SPA"
+    },
+    {
+        "id": 211,
+        "idol": "Kuro",
+        "attr": "SPA"
+    },
+    {
+        "id": 212,
+        "idol": "Madara",
+        "attr": "FLA"
+    },
+    {
+        "id": 213,
+        "idol": "Tori",
+        "attr": "GLI"
+    },
+    {
+        "id": 214,
+        "namejp": "決意するカード",
+        "nameen": "Determined Card",
+        "idol": "Hiiro",
+        "attr": "FLA",
+        "centerskill": "DA",
+        "da0": 46523,
+        "da1": 51016,
+        "da4": 65365,
+        "vo0": 22671,
+        "vo1": 24422,
+        "vo4": 28418,
+        "pf0": 23047,
+        "pf1": 24915,
+        "pf4": 28634
+    },
+    {
+        "id": 215,
+        "idol": "Yuuta",
+        "attr": "GLI"
+    },
+    {
+        "id": 216,
+        "idol": "Rei",
+        "attr": "FLA"
+    },
+    {
+        "id": 217,
+        "idol": "Midori",
+        "attr": "GLI"
+    },
+    {
+        "id": 218,
+        "idol": "Mitsuru",
+        "attr": "SPA"
+    },
+    {
+        "id": 219,
+        "namejp": "Chill Yellow",
+        "nameen": "Chill Yellow",
+        "idol": "Hokuto",
+        "attr": "BRI",
+        "centerskill": "DA",
+        "da0": 47977,
+        "da1": 53559,
+        "da2": 57711,
+        "da3": 62113,
+        "da4": 67805,
+        "vo0": 21322,
+        "vo1": 24033,
+        "vo2": 24135,
+        "vo3": 26596,
+        "vo4": 28949,
+        "pf0": 20272,
+        "pf1": 20296,
+        "pf2": 21851,
+        "pf3": 21875,
+        "pf4": 21901
+    },
+    {
+        "id": 220,
+        "idol": "Rinne",
+        "attr": "GLI"
+    },
+    {
+        "id": 221,
+        "idol": "Yuzuru",
+        "attr": "GLI"
+    },
+    {
+        "id": 222,
+        "idol": "Makoto",
+        "attr": "FLA"
+    },
+    {
+        "id": 223,
+        "idol": "Sora",
+        "attr": "FLA"
+    },
+    {
+        "id": 224,
+        "idol": "Kohaku",
+        "attr": "FLA"
+    },
+    {
+        "id": 225,
+        "namejp": "ドールと思い出",
+        "nameen": "Doll and Memories",
+        "idol": "Adonis",
+        "attr": "BRI",
+        "centerskill": "PF",
+        "da0": 21522,
+        "da4": 22984,
+        "vo0": 25724,
+        "vo4": 34095,
+        "pf0": 46548,
+        "pf4": 65915
+    },
+    {
+        "id": 226,
+        "idol": "Nagisa",
+        "attr": "SPA"
+    },
+    {
+        "id": 227,
+        "idol": "Tsumugi",
+        "attr": "SPA"
+    },
+    {
+        "id": 228,
+        "idol": "Shu",
+        "attr": "BRI"
+    },
+    {
+        "id": 229,
+        "namejp": "魅力香る花",
+        "nameen": "Flower with a Charming Fragrance",
+        "idol": "Arashi",
+        "attr": "GLI",
+        "centerskill": "ALL",
+        "da0": 25294,
+        "da4": 29957,
+        "vo0": 27465,
+        "vo4": 33150,
+        "pf0": 42834,
+        "pf4": 62613
+    },
+    {
+        "id": 230,
+        "idol": "Shinobu",
+        "attr": "FLA"
+    },
+    {
+        "id": 231,
+        "idol": "Mayoi",
+        "attr": "BRI"
+    },
+    {
+        "id": 232,
+        "idol": "Kuro",
+        "attr": "GLI"
+    },
+    {
+        "id": 233,
+        "idol": "Wataru",
+        "attr": "FLA"
+    },
+    {
+        "id": 234,
+        "idol": "Rinne",
+        "attr": "FLA"
+    },
+    {
+        "id": 235,
+        "idol": "Tomoya",
+        "attr": "SPA"
+    },
+    {
+        "id": 236,
+        "idol": "Mika",
+        "attr": "SPA"
+    },
+    {
+        "id": 237,
+        "idol": "Madara",
+        "attr": "GLI"
+    },
+    {
+        "id": 238,
+        "namejp": "ラッキーバニー",
+        "nameen": "Lucky Bunny",
+        "idol": "HiMERU",
+        "attr": "SPA",
+        "centerskill": "DA",
+        "da0": 46389,
+        "da1": 52236,
+        "da2": 55804,
+        "da3": 59121,
+        "da4": 65219,
+        "vo0": 23137,
+        "vo1": 23439,
+        "vo2": 25222,
+        "vo3": 26944,
+        "vo4": 27247,
+        "pf0": 24180,
+        "pf1": 25981,
+        "pf2": 26584,
+        "pf3": 28546,
+        "pf4": 30349
+    },
+    {
+        "id": 239,
+        "idol": "Keito",
+        "attr": "BRI"
+    },
+    {
+        "id": 240,
+        "namejp": "未来の自分へ出発！",
+        "nameen": "Off to my Future Self!",
+        "idol": "Hajime",
+        "attr": "SPA",
+        "centerskill": "PF",
+        "da0": 23592,
+        "vo0": 23105,
+        "pf0": 46378
+    },
+    {
+        "id": 241,
+        "namejp": "アンラッキーバニー",
+        "nameen": "Unlucky Bunny",
+        "idol": "Aira",
+        "attr": "FLA",
+        "centerskill": "ALL",
+        "da0": 25980,
+        "vo0": 21794,
+        "pf0": 46686
+    },
+    {
+        "id": 242,
+        "namejp": "陽だまりの眼差し",
+        "nameen": "Sunspot's Gaze",
+        "idol": "Hiyori",
+        "attr": "BRI",
+        "centerskill": "ALL",
+        "da0": 28633,
+        "vo0": 24380,
+        "pf0": 42484
+    },
+    {
+        "id": 243,
+        "namejp": "ワルツの思",
+        "nameen": "Waltz Expectation",
+        "idol": "Eichi",
+        "attr": "SPA",
+        "centerskill": "DA",
+        "da0": 47430,
+        "vo0": 20785,
+        "pf0": 23030
+    },
+    {
+        "id": 244,
+        "idol": "Tetora",
+        "attr": "FLA"
+    }
+]

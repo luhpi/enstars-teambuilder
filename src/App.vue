@@ -5,7 +5,7 @@
     <router-link to="/cards">cards</router-link>
     <router-link to="/about">about</router-link>
   </nav>
-  <router-view/>
+  <router-view class="app"/>
   <footer>
     made by <a href='https://twitter.com/justpiness' target="_blank">@justpiness</a>
   </footer>
@@ -14,6 +14,9 @@
 <style>
 * {
   font-family: "adrianna", sans-serif;
+}
+body{
+  margin: 0;
 }
 #app {
   -webkit-font-smoothing: antialiased;
@@ -28,6 +31,8 @@ nav {
   padding: 15px;
   display: block;
   text-align: left;
+  position: absolute;
+  height: -webkit-fill-available;
 }
 
 nav h1 {
@@ -61,8 +66,10 @@ nav a.router-link-exact-active {
   color: #4444dd;
 }
 
-#app div{
-  width: 80%;
+.app{
+  margin-left: 305px;
+  overflow-y: scroll;
+  max-height: 100vh;
 }
 footer{
   float: left;

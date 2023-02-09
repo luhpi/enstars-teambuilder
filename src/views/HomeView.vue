@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
   img{
     height: 60vh;
     position: fixed;
