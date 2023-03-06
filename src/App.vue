@@ -1,18 +1,18 @@
 <template>
-  <nav class="d-none d-md-block">
+  <nav class="d-none d-lg-block">
     <h1>enstars team builder</h1>
     <router-link to="/">home</router-link>
     <router-link to="/cards">cards</router-link>
     <router-link to="/about">about</router-link>
   </nav>
-  <nav class="d-md-none mobile-nav">
+  <nav class="d-lg-none mobile-nav">
     <h1>enstars team builder</h1>
     
     <div class="dropdown">
       <button type="button" data-bs-toggle="dropdown" aria-expanded="false">
         <span class="bi bi-list"></span>
       </button>
-      <ul class="dropdown-menu dropdown-menu-end">
+      <ul class="dropdown-menu border-0 rounded-0">
         <router-link to="/" class="dropdown-item">home</router-link>
         <router-link to="/cards" class="dropdown-item">cards</router-link>
         <router-link to="/about" class="dropdown-item">about</router-link>
@@ -21,7 +21,7 @@
     
   </nav>
 
-  <router-view class="app d-inline d-md-block"/>
+  <router-view class="app d-inline d-lg-block"/>
   <footer>
     made by <a href='https://twitter.com/justpiness' target="_blank">@justpiness</a>
   </footer>
@@ -72,13 +72,13 @@ nav a {
   font-weight: 400;
 }
 
-nav a:hover, .dropdown-item:hover {
+nav a:hover, .mobile-nav a:hover {
   background-color: #4444dd;
   color: white!important;
   border: solid 1px #4444dd;
 }
 
-nav a.router-link-exact-active, .dropdown-item.router-link-exact-active {
+nav a.router-link-exact-active, .mobile-nav a.router-link-exact-active {
   color: #4444dd;
   border: solid 1px #4444dd;
 }
@@ -107,10 +107,23 @@ nav a.router-link-exact-active, .dropdown-item.router-link-exact-active {
   margin: auto 0;
 }
 
+.mobile-nav ul{
+  width: 98vw;
+  padding: 15px;
+}
+
+.mobile-nav a{
+  padding: 0;
+  width: 100%;
+  padding: 5px 15px;
+  margin: 10px 0;
+}
+
 .app{
   margin-left: 305px;
   overflow-y: scroll;
   max-height: 100vh;
+  overflow-y: hidden;
 }
 footer{
   float: left;
