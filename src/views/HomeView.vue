@@ -32,7 +32,6 @@ export default {
   mounted(){
     this.img = Math.floor(Math.random() * 244) + 1;
     this.imgURL = '../assets/img/cards/renders/'+this.img+'.png'
-    console.log(this.imgURL)
   }
 }
 </script>
