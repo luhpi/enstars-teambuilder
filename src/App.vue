@@ -75,7 +75,6 @@ nav a {
 nav a:hover, .mobile-nav a:hover {
   background-color: #4444dd;
   color: white!important;
-  border: solid 1px #4444dd;
 }
 
 nav a.router-link-exact-active, .mobile-nav a.router-link-exact-active {
