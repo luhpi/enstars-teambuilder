@@ -82,6 +82,10 @@ nav a.router-link-exact-active, .mobile-nav a.router-link-exact-active {
   border: solid 1px #4444dd;
 }
 
+span:hover{
+  color: #4444dd;
+}
+
 .mobile-nav{
   display: flex;
   justify-content: space-between;

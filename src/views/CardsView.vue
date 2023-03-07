@@ -21,17 +21,22 @@
       
       <div class="content">
         <div class="card" :style='cardClass(card.attr)' v-for="card in cards" :key="card" :idol="card.idol" :attr="card.attr">
-            <img :src="getImg(card.id)"/>
-            <span class="title">{{ card.nameen }}</span>
-            <span class="idol">{{ card.idol }}</span>
-            <span hidden v-if="card.da0" class="stat">{{ card.da0 }}/{{ card.vo0 }}/{{ card.pf0 }}</span>
-        </div>
+            <input type="checkbox" class="btn-check" autocomplete="off" :id='card.id'>
+            
+            <label class='btn' :for="card.id">
+              <img :src="getImg(card.id)"/>
+            </label>
+            
+          </div>
       </div>
       
     </div>
   </template>
   
   <style scoped>
+  *{
+    transition: 0.2s ease-in-out;
+  }
   .content{
     overflow-y: scroll;
     height: 82vh;
@@ -43,23 +48,57 @@
   }
   .card{
     display: inline-grid;
-    width: 110px;
     justify-content: center;
-    margin-top: 10px
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 0%;
   }
+  .card:hover{
+    /* box-shadow: inset 0px 0px 10px rgb(0, 110, 235, 0.9); */
+    padding: 8px;
+    background-color: rgb(90, 160, 234, 0.7);
+  }
+  .btn{
+    padding: 0;
+  }
+
+  .card img{
+    filter: grayscale(70%);
+  }
+
+  div:has(> .btn-check:checked){ 
+    background-color: rgb(90, 160, 234, 0.5)!important;
+    padding: 8px;
+  }
+  /* div:focus, .btn-check:checked+.btn{
+    border: solid 1px rgb(0, 110, 235, 0.5);
+  } */
+  div:has(> .btn-check:checked) img,
+  .card:hover img{
+    max-height: 75px;
+    filter: grayscale(0%);
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+  }
+
+  .btn-check:checked+.btn{
+    color: transparent;
+  }
+
   img{
-    max-height: 80px;
+    max-height: 71px;
     margin: auto;
+    transition: 0.2s ease-in-out;
   }
   .title{
     font-size: 14px;
     margin-top: 5px;
     font-stretch: condensed;
     font-weight: 600;
-  }
-  .idol, .stat{
-    font-size: 12px;
-    font-stretch: condensed;
   }
   .filters{
     display: flex;
@@ -74,52 +113,51 @@
   }
   .typeFilter{
     display: flex;
-    justify-content: center;
     cursor: pointer;
-    border: solid 1px black;
-    border-radius: 25px;
-    padding: 5px 15px;
     margin: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px;
+    border: 2px solid rgb(0, 0, 0, 0.8);
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
   }
   .spaDiv{
-    border: solid 1px #EA4362;
+    border: solid 2px #EA4362;
     color: #EA4362;
-    background-color: #EA436280;
-    font-weight: 600;
+    background-color: #EA436240;
   }
   .briDiv{
-    border: solid 1px #59c8f8;
+    border: solid 2px #59c8f8;
     color: #59c8f8;
-    background-color: #59c8f880;
-    font-weight: 600;
+    background-color: #59c8f840;
   }
   .gliDiv{
-    border: solid 1px #95ea50;
+    border: solid 2px #95ea50;
     color: #95ea50;
-    background-color: #95ea5080;
-    font-weight: 600;
+    background-color: #95ea5040;
   }
   .flaDiv{
-    border: solid 1px #F9D548;
+    border: solid 2px #F9D548;
     color: #F9D548;
-    background-color: #F9D54880;
-    font-weight: 600;
+    background-color: #f9d54840;
   }
   .typeFilter img{
     cursor: pointer;
-    height: 30px;
-    margin-right: 5px;
+    height: 20px;
   }
   .typeFilter span{
     font-stretch: condensed;
     margin: auto;
-    font-size: 18px;
-    filter: brightness(50%);
   }
 
   .off{
     opacity: 0.8;
-    filter: grayscale();
+    filter: grayscale(100%);
   }
   </style>
   
@@ -175,13 +213,13 @@
       cardClass(attr){
         switch(attr){
           case 'SPA':
-            return this.SPAFilter? {display: 'inline-grid'} : {display: 'none'}
+            return this.SPAFilter? {display: 'inline-flex'} : {display: 'none'}
           case 'BRI':
-            return this.BRIFilter? {display: 'inline-grid'} : {display: 'none'}
+            return this.BRIFilter? {display: 'inline-flex'} : {display: 'none'}
           case 'GLI':
-            return this.GLIFilter? {display: 'inline-grid'} : {display: 'none'}
+            return this.GLIFilter? {display: 'inline-flex'} : {display: 'none'}
           case 'FLA':
-            return this.FLAFilter? {display: 'inline-grid'} : {display: 'none'}
+            return this.FLAFilter? {display: 'inline-flex'} : {display: 'none'}
         }
       },
       filter(attr){
