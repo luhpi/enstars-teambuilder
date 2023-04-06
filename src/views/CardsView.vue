@@ -1,27 +1,33 @@
 <template>
     <div class="cards">
-      <div class="filters">
-        <div class="typeFilter" @click="filter('spa')" :class="divClass('spa')">
-          <img :src="spaIcon" :class="filterClass('spa')"/>
-          <span>SPARK</span>
+      <div class="d-flex justify-content-between m-auto">
+        <div class="filters">
+          <div class="typeFilter" @click="filter('spa')" :class="divClass('spa')">
+            <img :src="spaIcon" :class="filterClass('spa')"/>
+            <span>SPARK</span>
+          </div>
+          <div class="typeFilter" @click="filter('bri')" :class="divClass('bri')">
+            <img :src="briIcon" :class="filterClass('bri')"/>
+            <span>BRILLIANT</span>
+          </div>
+          <div class="typeFilter" @click="filter('gli')" :class="divClass('gli')">
+            <img :src="gliIcon" :class="filterClass('gli')"/>
+            <span>GLITTER</span>
+          </div>
+          <div class="typeFilter" @click="filter('fla')" :class="divClass('fla')">
+            <img :src="flaIcon" :class="filterClass('fla')"/>
+            <span>FLASH</span>
+          </div>
         </div>
-        <div class="typeFilter" @click="filter('bri')" :class="divClass('bri')">
-          <img :src="briIcon" :class="filterClass('bri')"/>
-          <span>BRILLIANT</span>
-        </div>
-        <div class="typeFilter" @click="filter('gli')" :class="divClass('gli')">
-          <img :src="gliIcon" :class="filterClass('gli')"/>
-          <span>GLITTER</span>
-        </div>
-        <div class="typeFilter" @click="filter('fla')" :class="divClass('fla')">
-          <img :src="flaIcon" :class="filterClass('fla')"/>
-          <span>FLASH</span>
+        <div class="add-cards btn-group m-auto" style="margin-bottom: 15px!important; margin-right: 30px!important;">
+          <label class="btn" @click="addToDeck"> ADD CARDS </label>
+          <label class="btn btn-danger" @click="clearCards"> CLEAR </label>
         </div>
       </div>
-      
+
       <div class="content">
         <div class="card" :style='cardClass(card.attr)' v-for="card in cards" :key="card" :idol="card.idol" :attr="card.attr">
-            <input type="checkbox" class="btn-check" autocomplete="off" :id='card.id'>
+            <input type="checkbox" class="btn-check" autocomplete="off" :id='card.id' :value="card.id" v-model="cardList">
             
             <label class='btn' :for="card.id">
               <img :src="getImg(card.id)"/>
@@ -109,6 +115,7 @@
     border: solid 1px #4444dd;
     border-radius: 15px 5px;
     margin: 15px auto;
+    margin-left: 10px!important;
     box-shadow: 3px 3px 0px #92929280;
   }
   .typeFilter{
@@ -159,6 +166,36 @@
     opacity: 0.8;
     filter: grayscale(100%);
   }
+
+  .add-cards .btn{
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px;
+    border: 2px solid #4444dd;
+    color: #4444dd;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-left: 15px!important;
+    margin-top: auto;
+    height: fit-content;
+  }
+  .add-cards .btn:hover{
+    background-color: #4444dd;
+    color: white;
+  }
+
+  .add-cards .btn-danger{
+    border-color: #dc3545;
+    color: #dc3545;
+    background-color: transparent;
+  }
+  .add-cards .btn-danger:hover{
+    background-color: #dc3545;
+  }
   </style>
   
   <script>
@@ -177,10 +214,12 @@
         spaIcon: "../assets/img/attr/spa.png",
         briIcon: "../assets/img/attr/bri.png",
         gliIcon: "../assets/img/attr/gli.png",
-        flaIcon: "../assets/img/attr/fla.png"
+        flaIcon: "../assets/img/attr/fla.png",
+        cardList: [],
       }
     },
-    components: {
+    mounted(){
+      console.log(this.$store.getters['allDecks'])
     },
     methods:{
       getImg(id){
@@ -236,6 +275,37 @@
           case 'fla':
             this.FLAFilter = !this.FLAFilter
             break
+        }
+      },
+      clearCards(){
+        this.cardList = []
+      },
+      addToDeck(){
+        var stats = this.cardList.map((card)=>{
+          var c = {
+            id: card,
+            copies: 1,
+            da: this.cards[card].da0,
+            vo: this.cards[card].vo0,
+            pf: this.cards[card].pf0
+          }
+          return c
+        })
+        var deck = this.$store.getters['getDeckById'](1)
+        if (deck != null){
+        
+          stats.forEach((card) => {
+            if (!deck.cards.includes(card)){
+              deck.cards.push(card)
+            }
+          })
+
+          this.$store.dispatch('updateDeck', deck)
+        }
+        else{
+        
+          this.$store.dispatch('addDeck', stats)
+        
         }
       }
     }
