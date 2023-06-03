@@ -30,7 +30,7 @@
             <input type="checkbox" class="btn-check" autocomplete="off" :id='card.id' :value="card.id" v-model="cardList">
             
             <label class='btn' :for="card.id">
-              <img :src="getImg(card.id)"/>
+              <img :src="getImg(card.id)" rel="preload"/>
             </label>
             
           </div>
@@ -201,6 +201,7 @@
   <script>
   // @ is an alias to /src
   import cardData from '../assets/cards.json'
+  import { mapState, mapActions, mapGetters } from "vuex";
   
   export default {
     name: 'CardsView',
@@ -218,10 +219,15 @@
         cardList: [],
       }
     },
+    computed: {
+      ...mapState(["deck"]),
+      ...mapGetters(["deck"])
+    },
     mounted(){
-      console.log(this.$store.getters['allDecks'])
+      
     },
     methods:{
+      ...mapActions(["updateDeck"]),
       getImg(id){
         return "../assets/img/cards/icons/"+id+".png"
       },
@@ -291,22 +297,8 @@
           }
           return c
         })
-        var deck = this.$store.getters['getDeckById'](1)
-        if (deck != null){
-        
-          stats.forEach((card) => {
-            if (!deck.cards.includes(card)){
-              deck.cards.push(card)
-            }
-          })
 
-          this.$store.dispatch('updateDeck', deck)
-        }
-        else{
-        
-          this.$store.dispatch('addDeck', stats)
-        
-        }
+        this.updateDeck([1, stats])
       }
     }
   }
