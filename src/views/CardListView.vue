@@ -1,10 +1,20 @@
 <template>
     <div class="list">
+      <div class="header">
+        <div style="width: 90px;"></div>
+        <div style="width: 200px;"><label>Name</label></div>
+        <div style="width: 170px;"><label>Idol</label></div>
+        <div style="width: 71px;"><label>1 Copy</label></div>
+        <div style="width: 71px;"><label>2 Copy</label></div>
+        <div style="width: 71px;"><label>3 Copy</label></div>
+        <div style="width: 71px;"><label>4 Copy</label></div>
+        <div style="width: 71px;"><label>5 Copy</label></div>
+      </div>
       <div v-for="card in cards" :key="card.id" class="carta">
         <div>
           <img :src="getImg(card.id)" rel="preload" class="icon"/>
         </div>
-        <div style="width: 300px;">
+        <div style="width: 200px;">
           <span style="font-weight: bold;">{{ card.nameen }}</span>
         </div>
         <div style="width: 20px;">
@@ -50,12 +60,18 @@
 
   overflow: auto;
 }
-.carta{
+.carta, .header{
   display: inline-flex;
   align-items: center;
   width: fit-content;
   border: solid 1px #000000;
   margin-bottom: -1px;
+}
+.header{
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #4444dd;
 }
 .carta div{
   padding: 10px;
