@@ -65,18 +65,18 @@
   .card:hover{
     /* box-shadow: inset 0px 0px 10px rgb(0, 110, 235, 0.9); */
     padding: 8px;
-    background-color: rgb(90, 160, 234, 0.7);
+    /*background-color: rgb(90, 160, 234, 0.7);*/
   }
   .btn{
     padding: 0;
   }
 
   .card img{
-    filter: grayscale(70%);
+    filter: grayscale(80%);
   }
 
   div:has(> .btn-check:checked){ 
-    background-color: rgb(90, 160, 234, 0.5)!important;
+    /*background-color: rgb(90, 160, 234, 0.5)!important;*/
     padding: 8px;
   }
   /* div:focus, .btn-check:checked+.btn{
@@ -190,11 +190,12 @@
 
   .add-cards .btn-danger{
     border-color: #dc3545;
-    color: #dc3545;
-    background-color: transparent;
+    color: #ffffff;
+    background-color: #dc3545;
   }
   .add-cards .btn-danger:hover{
-    background-color: #dc3545;
+    background-color: transparent;
+    color: #dc3545;
   }
   </style>
   
@@ -202,6 +203,7 @@
   // @ is an alias to /src
   import cardData from '../assets/cards.json'
   import { mapState, mapActions, mapGetters } from "vuex";
+  import $ from 'jquery'
   
   export default {
     name: 'CardsView',
@@ -224,7 +226,7 @@
       ...mapGetters(["deck"])
     },
     mounted(){
-      
+      $("#cards").addClass('router-link-exact-active');
     },
     methods:{
       ...mapActions(["updateDeck"]),

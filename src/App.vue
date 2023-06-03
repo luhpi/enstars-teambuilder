@@ -2,7 +2,11 @@
   <nav class="d-none d-lg-block">
     <h1>enstars team builder</h1>
     <router-link to="/">home</router-link>
-    <router-link to="/cards">cards</router-link>
+    <a @click="openModal()" id="cards">cards</a>
+    <div v-if="this.modal" class="mod">
+      <router-link to="/cards">add to deck</router-link>
+      <router-link to="/list">card list</router-link>
+    </div>
     <router-link to="/about">about</router-link>
   </nav>
   <nav class="d-lg-none mobile-nav">
@@ -14,7 +18,11 @@
       </button>
       <ul class="dropdown-menu border-0 rounded-0">
         <router-link to="/" class="dropdown-item">home</router-link>
-        <router-link to="/cards" class="dropdown-item">cards</router-link>
+        <a @click="openModal()" id="cards">cards</a>
+        <div v-if="this.modal" class="mod">
+          <router-link to="/cards">add to deck</router-link>
+          <router-link to="/list">card list</router-link>
+        </div>
         <router-link to="/about" class="dropdown-item">about</router-link>
       </ul>
     </div>
@@ -60,7 +68,8 @@ nav h1 {
   font-size: 33px;
 }
 
-nav a {
+nav a,
+nav #cards{
   display: flex;
   height: auto;
   color: black;
@@ -72,14 +81,20 @@ nav a {
   font-weight: 400;
 }
 
-nav a:hover, .mobile-nav a:hover {
+nav a:hover, .mobile-nav a:hover{
   background-color: #4444dd;
   color: white!important;
 }
 
-nav a.router-link-exact-active, .mobile-nav a.router-link-exact-active {
+nav a.router-link-exact-active,
+.mobile-nav a.router-link-exact-active,
+nav #cards.router-link-exact-active {
   color: #4444dd;
   border: solid 1px #4444dd;
+}
+
+.mod{
+  padding-left: 15%;
 }
 
 span:hover{
@@ -134,4 +149,33 @@ footer{
   bottom: 15px;
   left: 20px;
 }
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #4444dd;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
 </style>
+
+<script>
+export default {
+  name: 'App',
+  data() {
+    return{
+      modal: false,
+    }
+  },
+  methods: {
+    openModal(){
+      this.modal = !this.modal
+    }
+  }
+}
+  
+</script>
