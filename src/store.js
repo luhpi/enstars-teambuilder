@@ -12,11 +12,17 @@ export default createStore({
     mutations: {
         setDeck(state, deck){
             state.deck = deck;
+        },
+        addToDeck(state, deck){
+            state.deck.add(deck);
         }
     },
     actions: {
         updateDeck({ commit }, deck){
             commit('setDeck', deck);
+        },
+        newDeck({ commit }, deck){
+            commit('addToDeck', deck)
         }
     },
     getters: {

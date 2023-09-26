@@ -4,7 +4,7 @@
     <router-link to="/">home</router-link>
     <a @click="openModal()" id="cards">cards</a>
     <div v-if="this.modal" class="mod">
-      <router-link to="/cards">add to deck</router-link>
+      <router-link to="/cards">edit deck</router-link>
       <router-link to="/list">card list</router-link>
     </div>
     <router-link to="/about">about</router-link>
@@ -20,7 +20,7 @@
         <router-link to="/" class="dropdown-item">home</router-link>
         <a @click="openModal()" id="cards">cards</a>
         <div v-if="this.modal" class="mod">
-          <router-link to="/cards">add to deck</router-link>
+          <router-link to="/cards">edit deck</router-link>
           <router-link to="/list">card list</router-link>
         </div>
         <router-link to="/about" class="dropdown-item">about</router-link>

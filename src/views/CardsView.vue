@@ -1,5 +1,12 @@
 <template>
     <div class="cards">
+      <div v-if="this.newDeckModal" class="modal-bg">
+        <div class="add-modal">
+          Name your deck:
+          <input type="text" v-model="deckName"/>
+          <button @click="newDeck()">SAVE</button>
+        </div>
+      </div>
       <div class="d-flex justify-content-between m-auto">
         <div class="filters">
           <div class="typeFilter" @click="filter('spa')" :class="divClass('spa')">
@@ -20,6 +27,10 @@
           </div>
         </div>
         <div class="add-cards btn-group m-auto" style="margin-bottom: 15px!important; margin-right: 30px!important;">
+          <select @change="deckChange()" v-model="selectedDeck">
+            <option value="new-deck">NEW DECK</option>
+            <option v-for="d in this.deck" :key="d.id" value="d.id">{{d.id}}. {{ d.name }}</option>
+          </select>
           <label class="btn" @click="addToDeck"> ADD CARDS </label>
           <label class="btn btn-danger" @click="clearCards"> CLEAR </label>
         </div>
@@ -219,6 +230,9 @@
         gliIcon: "../assets/img/attr/gli.png",
         flaIcon: "../assets/img/attr/fla.png",
         cardList: [],
+        newDeckModal: false,
+        selectedDeck: "",
+        deckName: "",
       }
     },
     computed: {
@@ -300,7 +314,31 @@
           return c
         })
 
+
         this.updateDeck([1, stats])
+      },
+      newDeck(){
+        let aux = this.deck.length
+
+        let d = {
+          id: aux,
+          name: this.deckName,
+          cards: {}
+        }
+
+        this.newDeck(d)
+        console.log(this.deck)
+      },
+      openModal(){
+        this.newDeckModal = true;
+      },
+      closeModal(){
+        this.newDeckModal = false;
+        this.deckName = "";
+      },
+      deckChange(){
+        if(this.selectedDeck == "new-deck")
+          this.openModal();
       }
     }
   }
